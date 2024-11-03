@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTohosp6()">Manipal Hospitals </button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+  <section class="max-healthcare-info">
+    <h1>Max Healthcare Institute</h1>
+    <p>Max Healthcare Institute is one of the leading healthcare organizations in India, primarily based in New Delhi...</p>
+    
+  </section>
+
+  <section class="manipal-hospitals-info">
+    <h1>Manipal Hospitals</h1>
+    <p>Manipal Hospitals is a premier multi-specialty healthcare provider with a capacity of 380 beds, dedicated to serving both Indian and international patients. As one of India’s leading hospitals, it focuses on delivering specialized tertiary and quaternary care across a wide range of medical disciplines.</p>
+    
+    <h2>State-of-the-Art Facilities</h2>
+    <p>The Manipal Hospital in Dwarka is an impressive facility, covering an extensive area of 560,000 square feet...</p>
+    <h3>Centers of Excellence</h3>
+    <ul>
+      <li><strong>Orthopedics & Joint Replacements</strong></li>
+      <li><strong>Renal Sciences (Nephrology & Urology)</strong></li>
+      <li><strong>Cardiac Sciences</strong></li>
+      <li><strong>Medical and Surgical Gastroenterology</strong></li>
+      <li><strong>Neurosciences</strong></li>
+      <li><strong>Oncology Services</strong></li>
+      <li><strong>Gynecology and Pediatrics</strong></li>
+    </ul>
+
+    <h2>Team and Specialties</h2>
+    <p>At Manipal Hospitals Dwarka, a dedicated and skilled team supports the delivery of healthcare services. The hospital is home to more than 40 renowned doctors from various specialties...</p>
+
+    <h2>Embracing Technology and Innovation</h2>
+    <p>Manipal Hospitals Dwarka has embraced digital advancements and innovative technologies to enhance patient care and streamline operations...</p>
+
+    <h2>Specialized Care</h2>
+    <ul>
+      <li><strong>Nephrology</strong></li>
+      <li><strong>Obstetrics & Gynecology</strong></li>
+      <li><strong>Anesthesiology</strong></li>
+      <li><strong>Dermatology</strong></li>
+      <li><strong>Diabetes and Endocrinology</strong></li>
+    </ul>
+
+    <h2>Conclusion</h2>
+    <p>In conclusion, Manipal Hospitals stands out as a leading healthcare institution, exemplifying excellence in medical care, advanced technology, and a commitment to community health...</p>
+  </section>
+
+</body>
+</html>

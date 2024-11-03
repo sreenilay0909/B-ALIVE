@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Doctors</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingToDoc1()">Dr.Dinesh Kumar Mittal</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <h1>Dr. Kapil Kumar</h1>
+  
+  <div class="doctor-info">
+    <h2>General Information</h2>
+    <p><strong>Experience:</strong> 32 Years</p>
+    <p><strong>Fee:</strong> ₹1200</p>
+    <p><strong>Hospital:</strong> Fortis Hospital</p>
+
+    <h2>About Doctor</h2>
+    <p>Presently working as a Director and HOD of Surgical Oncology at BLK Super Speciality Hospital, New Delhi. Prior to joining BLK Hospital, he has worked at Rajiv Gandhi Cancer Institute and Research Centre Delhi as Sr. Consultant, as Honorary Senior Consultant – Dharamshila Cancer Hospital, New Delhi.</p>
+    <p>Specializes in Breast cancer and oncoplastic surgery, Upper G.I. Onco surgery, Pancreatic Biliary surgery, Thoracic surgery including Esophagus cancer, Lung cancers, and Mediastinal tumors.</p>
+
+    <h2>Specialization</h2>
+    <p>Surgical Oncology, Oncoplastic surgery, Upper G.I. Onco surgery, Pancreatic Biliary surgery, Thoracic surgery, and Mediastinal tumors.</p>
+
+    <h2>Experience</h2>
+    <p>Currently working as a Director- BLKCC & HOD- Surgical Oncology at BLK Super Speciality Hospital, New Delhi</p>
+    <h3>Previous Experience:</h3>
+    <ul>
+      <li>Senior Consultant – Rajiv Gandhi Cancer Inst. & Research Centre, Rohini, Delhi</li>
+      <li>Consultant – Oswal Cancer Hospital, Ludhiana, Punjab</li>
+      <li>Senior Consultant – Batra Hospital and Medical Research Centre, New Delhi</li>
+      <li>Honorary Senior Consultant – Dharamshila Cancer Hospital, New Delhi</li>
+    </ul>
+
+    <h2>Awards and Achievements</h2>
+    <p>Dhanvantari award from Cholay1 Foundation for Onco-Surgery work.</p>
+
+    <h2>Membership</h2>
+    <ul>
+      <li>Life Member, Indian Society of Oncology (I.S.O.)</li>
+      <li>International Society of Diseases of Esophagus (I.S.D.E.)</li>
+      <li>Life Member, Delhi Medical Association (D.M.A.)</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

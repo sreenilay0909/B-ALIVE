@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Doctors</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingToDoc8()">Dr. Pradeep Jain</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <h1>Dr. Pradeep Jain</h1>
+
+  <div class="doctor-info">
+    <h2>General Information</h2>
+    <p><strong>Experience:</strong> 35 Years</p>
+    <p><strong>Fee:</strong> ₹2000</p>
+    <p><strong>Hospital:</strong> Fortis Hospital</p>
+
+    <h2>Doctor Profile</h2>
+    <p>Dr. Pradeep Jain is an esteemed gastroenterological surgeon with over 35 years of experience, specializing in complex gastrointestinal, hepatobiliary, and minimally invasive surgical procedures. Currently, he is the Principal Director of the Department of Laparoscopic & Robotic GI, GI Oncology, HPB, and Minimal Access Surgery at Fortis Hospital, Shalimar Bagh. An expert in advanced laparoscopic and robotic techniques, he has performed over 30,000 successful GI surgeries and is a certified robotic surgeon recognized for his precision and innovation.</p>
+    <p>Dr. Jain completed his MBBS and MS (General Surgery) from the renowned Maulana Azad Medical College and LNJP Hospital, Delhi. He pursued an M.Ch. in Gastroenterology & Hepatobiliary Pancreatic Surgery from G.B. Pant Hospital, further enhancing his expertise through advanced training in laparoscopic colorectal surgery from institutions in Seoul, South Korea, Japan, and the USA. His areas of specialization include advanced laparoscopic and robotic gastrointestinal surgeries, GI oncology, bariatric surgery, and complex liver and pancreatic surgeries. In recognition of his surgical expertise, Dr. Jain has been appointed as the Chairman of the GI Council at Pan Fortis and actively contributes to improving standards in GI surgery.</p>
+
+    <h2>Specialty Interests</h2>
+    <p>Dr. Jain has particular expertise in the following areas:</p>
+    <ul>
+      <li><strong>Advanced Laparoscopic and Robotic GI Surgery:</strong> Proficient in minimally invasive surgical techniques, including the latest robotic procedures for precise and effective treatment of complex GI disorders.</li>
+      <li><strong>Gastrointestinal Oncology Surgery:</strong> Expert in oncological procedures for the gastrointestinal tract, focusing on laparoscopic and robotic techniques to improve recovery and outcomes in GI cancer patients.</li>
+      <li><strong>Bariatric (Weight Loss) Surgery:</strong> Skilled in performing minimally invasive bariatric surgeries, helping patients achieve significant weight loss and improve overall health.</li>
+      <li><strong>Liver and Pancreatic Surgery:</strong> Specializes in advanced surgeries for liver and pancreatic conditions, employing cutting-edge techniques to manage both benign and malignant cases.</li>
+    </ul>
+
+    <h2>Education</h2>
+    <p>Dr. Jain's academic credentials reflect his commitment to excellence in surgery:</p>
+    <ul>
+      <li><strong>MBBS:</strong> Maulana Azad Medical College, Delhi</li>
+      <li><strong>MS (General Surgery):</strong> Maulana Azad Medical College and LNJP Hospital, Delhi</li>
+      <li><strong>M.Ch. (Gastroenterology & Hepatobiliary Pancreatic Surgery):</strong> G.B. Pant Hospital, Delhi</li>
+    </ul>
+
+    <h2>Awards & Accolades</h2>
+    <p>Dr. Jain’s achievements highlight his pioneering contributions to the field of GI surgery:</p>
+    <ul>
+      <li>Received advanced training in laparoscopic colorectal surgery at DongGuk University Hospital, Seoul, South Korea, where he honed his skills in treating colorectal diseases with minimally invasive techniques.</li>
+      <li>Chaired numerous sessions at both national and state-level conferences, where he shared his expertise and insights with fellow medical professionals.</li>
+      <li>Organized and chaired the National Conference on Gastrointestinal Surgery (GI Surgicon) for three consecutive years (2014, 2015, 2016), promoting advancements and education in GI surgery.</li>
+      <li>Pioneered thoracoscopic and laparoscopic esophagectomy and laparoscopic Whipple procedures in North India, positioning him as a leader in advanced GI surgical techniques.</li>
+      <li>Authored educational DVDs on advanced laparoscopic GI surgery, serving as valuable resources for training and skill development among surgeons.</li>
+      <li>Certified robotic surgeon by Intuitive Surgical, with extensive experience in robotic techniques that enable greater precision and improved outcomes in complex surgeries.</li>
+    </ul>
+
+    <p>Dr. Jain's extensive experience, innovative approach, and dedication to patient-centered care make him a respected authority in the field of gastroenterology and hepatobiliary surgery, known for his commitment to advancing minimally invasive techniques in GI and hepatobiliary surgery.</p>
+  </div>
+
+</body>
+
+</html>

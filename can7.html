@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Esophageal Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+ 
+    <h1>Esophageal Cancer Overview</h1>
+    <p>Esophageal cancer is a type of cancer that occurs in the esophagus, the tube that connects the throat to the stomach. It can develop in any part of the esophagus and is typically classified into two main types: squamous cell carcinoma and adenocarcinoma.</p>
+
+    <h2>Types of Esophageal Cancer</h2>
+    <ul>
+      <li><strong>Squamous Cell Carcinoma:</strong> This type arises from the flat cells lining the esophagus. It is more common in the upper and middle parts of the esophagus and is often associated with smoking and alcohol consumption.</li>
+      <li><strong>Adenocarcinoma:</strong> This type develops from glandular cells in the lower part of the esophagus, often near the junction with the stomach. It is commonly linked to gastroesophageal reflux disease (GERD) and Barrett's esophagus, a condition where the normal lining of the esophagus changes due to chronic acid exposure.</li>
+    </ul>
+
+    <h2>Risk Factors</h2>
+    <ul>
+      <li><strong>Age:</strong> Risk increases with age, particularly in individuals over 55.</li>
+      <li><strong>Gender:</strong> Men are more likely to develop esophageal cancer than women.</li>
+      <li><strong>Smoking:</strong> Tobacco use is a significant risk factor.</li>
+      <li><strong>Alcohol Consumption:</strong> Heavy drinking is linked to an increased risk, especially when combined with smoking.</li>
+      <li><strong>Obesity:</strong> Being overweight or obese increases the risk, particularly for adenocarcinoma.</li>
+      <li><strong>Chronic Acid Reflux (GERD):</strong> Long-term gastroesophageal reflux can damage the esophagus and lead to Barrett's esophagus.</li>
+      <li><strong>Diet:</strong> Diets low in fruits and vegetables and high in processed meats may contribute to risk.</li>
+      <li><strong>Certain Medical Conditions:</strong> Conditions such as achalasia (a disorder that affects the ability to swallow) and Barrett's esophagus increase risk.</li>
+    </ul>
+
+    <h2>Symptoms</h2>
+    <p>Early stages of esophageal cancer may not cause noticeable symptoms. As the disease progresses, symptoms can include:</p>
+    <ul>
+      <li>Difficulty swallowing (dysphagia).</li>
+      <li>Pain or discomfort in the chest, especially when swallowing.</li>
+      <li>Weight loss without trying.</li>
+      <li>Regurgitation of food or liquids.</li>
+      <li>Hoarseness or chronic cough.</li>
+      <li>Heartburn or indigestion.</li>
+      <li>Vomiting, possibly with blood.</li>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <p>Diagnosis of esophageal cancer typically involves several steps:</p>
+    <ul>
+      <li><strong>Medical History and Physical Examination:</strong> A healthcare provider will review symptoms and conduct a physical exam.</li>
+      <li><strong>Endoscopy:</strong> A thin, flexible tube with a camera is inserted through the mouth to visualize the esophagus and take biopsies if necessary.</li>
+      <li><strong>Biopsy:</strong> Tissue samples taken during endoscopy are examined for cancerous cells.</li>
+      <li><strong>Imaging Tests:</strong> CT scans, MRIs, or PET scans may be used to determine the extent of cancer spread.</li>
+      <li><strong>Barium Swallow Test:</strong> In this test, a patient swallows a barium solution, allowing for X-ray imaging of the esophagus to identify abnormalities.</li>
+    </ul>
+
+    <h2>Treatment</h2>
+    <p>Treatment for esophageal cancer depends on the stage of the disease, the type of cancer, and the patient’s overall health. Options include:</p>
+    <ul>
+      <li><strong>Surgery:</strong> This may involve removing part or all of the esophagus (esophagectomy) and possibly nearby lymph nodes.</li>
+      <li><strong>Chemotherapy:</strong> Often used before surgery (neoadjuvant therapy) to shrink tumors or after (adjuvant therapy) to kill remaining cancer cells.</li>
+      <li><strong>Radiation Therapy:</strong> May be used in conjunction with chemotherapy or as palliative treatment to relieve symptoms.</li>
+      <li><strong>Targeted Therapy:</strong> Certain drugs target specific characteristics of cancer cells, particularly in advanced cases.</li>
+      <li><strong>Immunotherapy:</strong> This approach enhances the body’s immune response to cancer cells, particularly for specific types of esophageal cancer.</li>
+    </ul>
+
+    <h2>Prevention</h2>
+    <p>Preventive measures can help reduce the risk of esophageal cancer:</p>
+    <ul>
+      <li><strong>Avoid Tobacco:</strong> Quitting smoking and avoiding exposure to secondhand smoke can significantly reduce risk.</li>
+      <li><strong>Limit Alcohol Consumption:</strong> Reducing alcohol intake can lower risk, particularly when combined with smoking.</li>
+      <li><strong>Maintain a Healthy Weight:</strong> Achieving and maintaining a healthy weight through diet and exercise can help reduce risk.</li>
+      <li><strong>Healthy Diet:</strong> Eating a balanced diet rich in fruits, vegetables, and whole grains while limiting processed and red meats may lower risk.</li>
+      <li><strong>Manage GERD:</strong> Proper treatment of gastroesophageal reflux disease can help prevent changes in the esophagus that increase cancer risk.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

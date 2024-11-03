@@ -1,0 +1,91 @@
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTohosp5()">Max Hospitals</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <section class="max-healthcare-info">
+    <h1>Max Healthcare Institute</h1>
+    <p>Max Healthcare Institute is one of the leading healthcare organizations in India, primarily based in New Delhi. With a robust network of 14 hospitals spread across North India, Max Healthcare is dedicated to providing high-quality medical care to the communities it serves. The flagship facility, Max Super Specialty Hospital in Saket, was established in 2006 as a key component of the Max Healthcare consortium.</p>
+    
+    <h2>Commitment to Quality Care</h2>
+    <p>Max Healthcare is driven by a mission to deliver superior medical services and enhance the health and well-being of the communities it serves. The organization emphasizes patient-centered care, integrating advanced technology and innovative treatment protocols to ensure that patients receive the best possible outcomes.</p>
+    
+    <h2>Team and Specialties</h2>
+    <p>Max Healthcare employs a dedicated team of more than 2,000 leading doctors, along with 3,300 nurses and 3,200 trained support staff.</p>
+    
+    <h2>Emergency Services</h2>
+    <p>The emergency services at Max Healthcare are designed to provide rapid and efficient care in critical situations.</p>
+    
+    <h2>Specialized Medical Institutes</h2>
+    <ul>
+      <li><strong>Institute of Minimally Access, Metabolic & Bariatric Surgery</strong></li>
+      <li><strong>Cardiac Surgery</strong></li>
+      <li><strong>Cancer Care</strong></li>
+      <li><strong>Orthopedics</strong></li>
+      <li><strong>Pediatrics</strong></li>
+      <li><strong>Mental Health and Behavioral Sciences</strong></li>
+      <li><strong>Aesthetic and Reconstructive Surgery</strong></li>
+      <li><strong>Internal Medicine</strong></li>
+      <li><strong>Endocrinology</strong></li>
+      <li><strong>ENT (Ear, Nose, and Throat)</strong></li>
+      <li><strong>Neurosciences</strong></li>
+      <li><strong>Eye Care</strong></li>
+      <li><strong>Minimal Access Surgery</strong></li>
+    </ul>
+
+    <h2>Specialty Clinics</h2>
+    <ul>
+      <li>Movement Disorder Clinic</li>
+      <li>Multiple Sclerosis Clinic</li>
+      <li>Geriatric Neurology Clinic</li>
+      <li>Pacemaker Clinic</li>
+      <li>Women’s Heart Clinic</li>
+      <li>Headache Clinic</li>
+      <li>Arrhythmia & Electrophysiology Clinic</li>
+    </ul>
+
+    <h2>Accreditation and Recognition</h2>
+    <p>Max Hospital, Saket, is not only NABH accredited but also NABL accredited.</p>
+
+    <h2>Conclusion</h2>
+    <p>In summary, Max Healthcare Institute represents a cornerstone of advanced healthcare in North India, characterized by its commitment to quality, innovation, and comprehensive patient care.</p>
+  </section>
+
+</body>
+</html>

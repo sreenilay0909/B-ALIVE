@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTohosp2()">Fortis Memorial </button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <h1>Fortis Memorial Research Institute (FMRI)</h1>
+
+  <div class="hospital-info">
+    <h2>About Fortis Memorial Research Institute</h2>
+    <p>Fortis Memorial Research Institute (FMRI) is a premier multi-specialty hospital situated in Gurgaon, Haryana, India. As a part of the Fortis Healthcare network, one of the largest and most esteemed healthcare providers in the country, FMRI has established itself as a leader in medical excellence. The hospital is celebrated for its state-of-the-art facilities, advanced technology, and commitment to patient-centered care.</p>
+
+    <h2>Comprehensive Medical Services</h2>
+    <p>FMRI is recognized as a center of excellence in a variety of medical specialties, including but not limited to cardiology, neurology, oncology, orthopedics, gastroenterology, and critical care. The hospital's broad spectrum of medical services ensures that patients have access to comprehensive care tailored to their specific needs.</p>
+
+    <h2>Expert Medical Team</h2>
+    <p>The hospital boasts a team of highly skilled medical professionals, which includes experienced doctors, specialized super-subspecialists, dedicated nurses, and support staff. These professionals are committed to providing the highest standard of care, utilizing their extensive training and expertise to enhance patient outcomes. Each member of the team is focused on ensuring that patients receive not only effective treatments but also compassionate support throughout their healthcare journey.</p>
+
+    <h2>Cutting-Edge Technology</h2>
+    <p>FMRI is equipped with some of the most advanced medical technology available today:</p>
+    <ul>
+      <li><strong>256 Slice Brilliance ICT Scanner:</strong> This innovative scanner captures detailed images of the entire heart in just two heartbeats, facilitating rapid and accurate diagnosis.</li>
+      <li><strong>Modular Operating Rooms:</strong> The hospital features state-of-the-art modular operating rooms furnished with the latest surgical equipment, enhancing the efficiency and safety of surgical procedures.</li>
+      <li><strong>E-ICU:</strong> FMRI's pioneering E-ICU incorporates two-way audiovisual communication, allowing clinicians to monitor patients continuously and provide real-time assistance, ensuring optimal care 24/7.</li>
+      <li><strong>Bi-Plane Cath Lab:</strong> The ultra-modern Bi-Plane Cath Lab is specifically designed for cardiac and vascular interventions, equipped with the latest technology to support complex procedures.</li>
+      <li><strong>CT-Based Brain Suite:</strong> The hospital includes a CT-based Brain Suite equipped with intraoperative CT imaging for brain and spine surgeries, allowing for precision and enhanced surgical outcomes.</li>
+      <li><strong>Digital MRI Technology:</strong> FMRI features the world’s first Digital MRI technology, utilizing a 3 Tesla MRI system that provides high-resolution imaging for accurate diagnosis and treatment planning.</li>
+    </ul>
+
+    <h2>Commitment to Research and Education</h2>
+    <p>In addition to its clinical services, FMRI places a strong emphasis on research and education. The hospital actively collaborates with several universities and research organizations to advance medical knowledge and improve healthcare practices. This commitment to education ensures that the medical staff remains at the forefront of the latest developments in their fields, ultimately benefiting patients through enhanced treatment protocols and innovations.</p>
+
+    <h2>Reputation and Recognition</h2>
+    <p>Overall, Fortis Memorial Research Institute is regarded as one of the top hospitals in India. Its combination of cutting-edge technology, expert medical team, and commitment to patient care has made it a popular choice for patients seeking quality medical services. With a focus on excellence, FMRI continues to set benchmarks in the healthcare sector, making significant contributions to the well-being of the community it serves.</p>
+  </div>
+
+</body>
+
+</html>

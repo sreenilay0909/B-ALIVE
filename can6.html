@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Colorectal Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+
+
+    <h1>Colorectal Cancer Overview</h1>
+    <p>Colorectal cancer (CRC) refers to cancer that begins in the colon or rectum, parts of the large intestine. It is one of the most common types of cancer worldwide and can affect both men and women. Early detection and treatment are critical for improving outcomes.</p>
+
+    <h2>Types of Colorectal Cancer</h2>
+    <ul>
+      <li><strong>Adenocarcinoma:</strong> This is the most common type, making up about 95% of colorectal cancers. It arises from the glandular cells that line the colon and rectum.</li>
+      <li><strong>Carcinoid Tumors:</strong> These are neuroendocrine tumors that can develop in the gastrointestinal tract, including the colon.</li>
+      <li><strong>Gastrointestinal Stromal Tumors (GISTs):</strong> These tumors arise from the connective tissues in the GI tract but are rare.</li>
+      <li><strong>Lymphoma:</strong> This type of cancer originates in the lymphatic system and can occur in the colon or rectum.</li>
+    </ul>
+
+    <h2>Risk Factors</h2>
+    <ul>
+      <li><strong>Age:</strong> Risk increases with age, particularly after 50.</li>
+      <li><strong>Family History:</strong> A family history of colorectal cancer or polyps can elevate risk, especially with genetic conditions like Lynch syndrome or familial adenomatous polyposis (FAP).</li>
+      <li><strong>Diet:</strong> Diets high in red or processed meats and low in fruits, vegetables, and whole grains may contribute to risk.</li>
+      <li><strong>Obesity:</strong> Being overweight or obese is associated with an increased risk of CRC.</li>
+      <li><strong>Physical Inactivity:</strong> Lack of regular exercise can contribute to risk.</li>
+      <li><strong>Smoking and Alcohol Use:</strong> Tobacco use and heavy alcohol consumption are linked to a higher risk of colorectal cancer.</li>
+      <li><strong>Chronic Inflammatory Conditions:</strong> Conditions such as inflammatory bowel disease (IBD), including ulcerative colitis and Crohn's disease, increase risk.</li>
+    </ul>
+
+    <h2>Symptoms</h2>
+    <p>Symptoms of colorectal cancer can vary but may include:</p>
+    <ul>
+      <li>Changes in bowel habits (diarrhea, constipation, or a change in the consistency of stool).</li>
+      <li>Blood in the stool or rectal bleeding.</li>
+      <li>Abdominal discomfort, such as cramps, gas, or pain.</li>
+      <li>Unexplained weight loss.</li>
+      <li>Fatigue or weakness.</li>
+      <li>A feeling that the bowel doesn’t empty completely.</li>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <p>Diagnosis typically involves several steps:</p>
+    <ul>
+      <li><strong>Medical History and Physical Examination:</strong> A healthcare provider will assess symptoms and perform a physical exam.</li>
+      <li><strong>Colonoscopy:</strong> A procedure where a long, flexible tube with a camera is used to examine the entire colon and rectum, allowing for biopsy of suspicious areas.</li>
+      <li><strong>Biopsy:</strong> Tissue samples are taken during colonoscopy for laboratory examination to determine if cancer is present.</li>
+      <li><strong>Imaging Tests:</strong> CT scans, MRIs, or ultrasounds may be used to evaluate the extent of cancer spread.</li>
+      <li><strong>Blood Tests:</strong> Certain markers, such as carcinoembryonic antigen (CEA), may be checked.</li>
+    </ul>
+
+    <h2>Treatment</h2>
+    <p>Treatment for colorectal cancer depends on the stage of the disease, overall health, and other factors. Options include:</p>
+    <ul>
+      <li><strong>Surgery:</strong> This is the primary treatment for localized colorectal cancer. It may involve removing the tumor and some surrounding tissue (local excision), a portion of the colon (partial colectomy), or the entire colon (total colectomy).</li>
+      <li><strong>Chemotherapy:</strong> Often used after surgery (adjuvant therapy) to kill remaining cancer cells or for advanced cases to control the disease.</li>
+      <li><strong>Radiation Therapy:</strong> Typically used for rectal cancer, either before surgery to shrink tumors or after to eliminate remaining cancer cells.</li>
+      <li><strong>Targeted Therapy:</strong> Certain medications target specific characteristics of cancer cells, such as angiogenesis or genetic mutations.</li>
+      <li><strong>Immunotherapy:</strong> This approach boosts the body’s immune response to fight cancer, especially for specific genetic profiles of colorectal cancer.</li>
+    </ul>
+
+    <h2>Prevention</h2>
+    <p>Preventive measures can help reduce the risk of colorectal cancer:</p>
+    <ul>
+      <li><strong>Regular Screening:</strong> Starting at age 45 (or earlier for those with risk factors), regular screenings such as colonoscopies can help detect precancerous polyps and cancer early.</li>
+      <li><strong>Healthy Diet:</strong> A diet rich in fruits, vegetables, whole grains, and lean proteins while limiting red and processed meats can lower risk.</li>
+      <li><strong>Regular Exercise:</strong> Engaging in regular physical activity helps maintain a healthy weight and reduces risk.</li>
+      <li><strong>Avoiding Tobacco and Limiting Alcohol:</strong> Quitting smoking and reducing alcohol intake are essential for lowering risk.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

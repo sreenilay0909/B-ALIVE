@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nutrition</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .nutrition-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTonutrition()">Nutrition</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="nutrition-info">
+    <h2>Nutrition Overview</h2>
+    
+    <h3>1. Macronutrients</h3>
+    <p>Macronutrients are the nutrients that provide us with energy and are necessary for growth and maintenance.</p>
+    <ul>
+      <li><strong>Carbohydrates:</strong> 
+        <ul>
+          <li>Primary source of energy for the body.</li>
+          <li>Types include simple carbs (sugars) and complex carbs (starches and fiber).</li>
+          <li>Found in fruits, vegetables, grains, and legumes.</li>
+        </ul>
+      </li>
+      <li><strong>Proteins:</strong>
+        <ul>
+          <li>Essential for growth, repair, and maintenance of body tissues.</li>
+          <li>Made up of amino acids, some of which are essential (must be obtained from food).</li>
+          <li>Sources include meat, fish, dairy, beans, and nuts.</li>
+        </ul>
+      </li>
+      <li><strong>Fats:</strong>
+        <ul>
+          <li>Important for energy, hormone production, and nutrient absorption.</li>
+          <li>Types include saturated, unsaturated, and trans fats.</li>
+          <li>Healthy sources include avocados, olive oil, nuts, and fatty fish.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>2. Micronutrients</h3>
+    <p>Micronutrients are vital for various biochemical functions in the body.</p>
+    <ul>
+      <li><strong>Vitamins:</strong>
+        <ul>
+          <li>Organic compounds needed in small quantities.</li>
+          <li>Examples include vitamin C (important for immune function) and vitamin D (crucial for bone health).</li>
+        </ul>
+      </li>
+      <li><strong>Minerals:</strong>
+        <ul>
+          <li>Inorganic elements that play critical roles in health.</li>
+          <li>Support processes like bone health (calcium) and oxygen transport (iron).</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>3. Water</h3>
+    <p>Water is essential for life. It plays key roles in:</p>
+    <ul>
+      <li>Hydration</li>
+      <li>Digestion</li>
+      <li>Regulating body temperature</li>
+    </ul>
+    <p>It's crucial to drink enough fluids daily.</p>
+
+    <h3>4. Dietary Fiber</h3>
+    <p>Fiber is important for digestive health and can help maintain a healthy weight.</p>
+    <ul>
+      <li>Found in fruits, vegetables, whole grains, and legumes.</li>
+      <li>Helps regulate blood sugar levels and lowers cholesterol.</li>
+    </ul>
+
+    <h3>5. Balanced Diet</h3>
+    <p>A balanced diet includes a variety of foods from all food groups in appropriate proportions. It is essential for:</p>
+    <ul>
+      <li>Providing essential nutrients</li>
+      <li>Maintaining a healthy weight</li>
+      <li>Reducing the risk of chronic diseases</li>
+    </ul>
+
+    <h3>6. Nutritional Needs</h3>
+    <p>Nutritional needs vary based on:</p>
+    <ul>
+      <li>Age</li>
+      <li>Gender</li>
+      <li>Activity level</li>
+      <li>Health status</li>
+    </ul>
+    <p>It's important to tailor your diet to meet your individual needs.</p>
+
+    <h3>7. Food Labels</h3>
+    <p>Understanding nutrition labels helps you make healthier food choices by providing information on:</p>
+    <ul>
+      <li>Calories</li>
+      <li>Macronutrients</li>
+      <li>Micronutrients</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

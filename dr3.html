@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Doctors</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingToDoc3()">Dr. Deepak Kalra</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <h1>Dr. Deepak Kalra</h1>
+
+  <div class="doctor-info">
+    <h2>General Information</h2>
+    <p><strong>Experience:</strong> 18 Years</p>
+    <p><strong>Fee:</strong> ₹1200</p>
+    <p><strong>Hospital:</strong> Fortis Hospital</p>
+
+    <h2>Doctor Profile</h2>
+    <p>Dr. Deepak Kalra is a renowned Nephrologist in New Delhi, India, recognized for his exceptional surgical skills and extensive experience. With over 16 years in the field, he is dedicated to providing safe and efficient care while staying updated with the latest advancements in nephrology. Common conditions he treats include Kidney Failure, Glomerulonephritis, Chronic Kidney Disease, End-Stage Renal Disease, and Polycystic Kidneys.</p>
+
+    <h2>Qualification and Experience</h2>
+    <p>Currently serving as a Senior Consultant Nephrologist at Fortis Hospital, Shalimar Bagh, New Delhi, Dr. Kalra has accumulated over 23 years of medical experience, with nearly 20 years specializing in nephrology. He holds the following qualifications:</p>
+    <ul>
+      <li>DM in Nephrology, 2008 - Sanjay Gandhi Postgraduate Institute of Medical Sciences, Lucknow</li>
+      <li>MD in Medicine, 2002 - King George's Medical University, Lucknow</li>
+      <li>MBBS, 1999 - Chhatrapati Shahu Ji Maharaj University, Kanpur</li>
+    </ul>
+    <p>His areas of expertise include Kidney Transplantation, Clinical Nephrology, and Diabetic Hypertension. He is also a member of the Indian Medical Council.</p>
+
+    <h2>Contribution to Medical Science</h2>
+    <p>Dr. Kalra specializes in various procedures and treatments, including:</p>
+    <ul>
+      <li>Kidney Dialysis</li>
+      <li>Kidney Stone Treatment</li>
+      <li>Chronic Kidney Disease (CKD) Treatment</li>
+      <li>Nephrectomy (Kidney Removal)</li>
+      <li>Peritoneal Dialysis</li>
+      <li>Haemodialysis</li>
+      <li>Proteinuria Management</li>
+      <li>Urinary Tract Infection (UTI) Treatment</li>
+      <li>Diabetes Management</li>
+      <li>Renal Failure Treatment</li>
+      <li>Transplant Nephrology</li>
+      <li>Blood in Urine (Hematuria) Treatment</li>
+      <li>Percutaneous Nephrolithotomy</li>
+    </ul>
+    <p>Dr. Kalra is highly regarded for his contributions to nephrology and is a trusted specialist for a wide range of renal conditions.</p>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Stomach Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+
+
+
+  
+    <h1>Stomach Cancer Overview</h1>
+    <p>Stomach cancer, also known as gastric cancer, develops in the lining of the stomach. It can occur in various parts of the stomach and may spread to nearby tissues and organs. Stomach cancer is more prevalent in certain regions of the world and often diagnosed at an advanced stage due to its subtle early symptoms.</p>
+
+    <h2>Types of Stomach Cancer</h2>
+    <ul>
+      <li><strong>Adenocarcinoma:</strong> This is the most common type, accounting for about 90-95% of stomach cancers. It originates in the glandular cells that line the stomach.</li>
+      <li><strong>Lymphoma:</strong> This type arises from the immune system tissue in the stomach and can also occur in other lymphatic tissues.</li>
+      <li><strong>Gastrointestinal Stromal Tumors (GISTs):</strong> These tumors develop in the connective tissues of the stomach and can be benign or malignant.</li>
+      <li><strong>Carcinoid Tumors:</strong> These are neuroendocrine tumors that can develop in the stomach but are relatively rare.</li>
+    </ul>
+
+    <h2>Risk Factors</h2>
+    <ul>
+      <li><strong>Helicobacter pylori Infection:</strong> Chronic infection with this bacteria can lead to inflammation and increase the risk of gastric cancer.</li>
+      <li><strong>Diet:</strong> A diet high in salted, smoked, or pickled foods and low in fruits and vegetables is associated with a higher risk.</li>
+      <li><strong>Smoking:</strong> Tobacco use significantly raises the risk of stomach cancer.</li>
+      <li><strong>Age:</strong> The risk increases with age, with most cases occurring in individuals over 65.</li>
+      <li><strong>Family History:</strong> A family history of stomach cancer or certain genetic conditions can increase risk.</li>
+      <li><strong>Certain Medical Conditions:</strong> Conditions such as chronic gastritis, pernicious anemia, and gastric polyps may contribute to an increased risk.</li>
+    </ul>
+
+    <h2>Symptoms</h2>
+    <p>In the early stages, stomach cancer may not cause noticeable symptoms. As the disease progresses, symptoms may include:</p>
+    <ul>
+      <li>Persistent stomach pain or discomfort.</li>
+      <li>Nausea or vomiting, especially if there’s blood.</li>
+      <li>Loss of appetite and significant weight loss.</li>
+      <li>Difficulty swallowing.</li>
+      <li>A feeling of fullness after eating small amounts of food.</li>
+      <li>Fatigue or weakness.</li>
+      <li>Indigestion or heartburn.</li>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <p>Diagnosis typically involves several steps:</p>
+    <ul>
+      <li><strong>Medical History and Physical Examination:</strong> A healthcare provider will assess symptoms and perform a physical exam.</li>
+      <li><strong>Endoscopy:</strong> A flexible tube with a camera (endoscope) is inserted through the mouth to visualize the stomach and take biopsies if necessary.</li>
+      <li><strong>Imaging Tests:</strong> CT scans, ultrasounds, or X-rays may be used to determine the extent of cancer spread.</li>
+      <li><strong>Biopsy:</strong> Tissue samples taken during endoscopy are examined for cancerous cells.</li>
+    </ul>
+
+    <h2>Treatment</h2>
+    <p>Treatment options for stomach cancer depend on the stage of the disease, the patient’s overall health, and other factors. Common treatments include:</p>
+    <ul>
+      <li><strong>Surgery:</strong> This may involve partial or total gastrectomy (removal of part or all of the stomach) to remove the tumor.</li>
+      <li><strong>Chemotherapy:</strong> Often used before surgery (neoadjuvant therapy) or after (adjuvant therapy) to kill remaining cancer cells.</li>
+      <li><strong>Radiation Therapy:</strong> This may be used in combination with chemotherapy or as palliative treatment to relieve symptoms.</li>
+      <li><strong>Targeted Therapy:</strong> Certain drugs target specific characteristics of cancer cells, such as HER2-positive gastric cancer.</li>
+      <li><strong>Immunotherapy:</strong> This approach helps the immune system recognize and attack cancer cells, particularly in advanced cases.</li>
+    </ul>
+
+    <h2>Prevention</h2>
+    <p>While not all stomach cancers can be prevented, certain measures can reduce risk:</p>
+    <ul>
+      <li><strong>Healthy Diet:</strong> Eating a balanced diet rich in fruits and vegetables and low in salted and smoked foods can lower risk.</li>
+      <li><strong>Quit Smoking:</strong> Avoiding tobacco use is crucial for reducing the risk of stomach and many other cancers.</li>
+      <li><strong>Manage H. pylori Infection:</strong> Treating H. pylori infections can help prevent conditions that lead to stomach cancer.</li>
+      <li><strong>Regular Medical Check-ups:</strong> Monitoring and managing conditions like gastritis and gastric polyps can also help reduce risk.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Breast Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+
+      <h1>Breast Cancer Overview</h1>
+      <p>Breast cancer is one of the most common types of cancer affecting women worldwide, though it can also occur in men. It arises when cells in the breast tissue begin to grow uncontrollably, forming tumors that can be invasive and spread to other parts of the body.</p>
+  
+      <h2>Types of Breast Cancer</h2>
+      <ul>
+        <li><strong>Ductal Carcinoma In Situ (DCIS):</strong> A non-invasive condition where abnormal cells are found in the ducts of the breast but have not spread beyond the ducts.</li>
+        <li><strong>Invasive Ductal Carcinoma (IDC):</strong> The most common type of breast cancer, which starts in the breast ducts and invades surrounding tissue.</li>
+        <li><strong>Invasive Lobular Carcinoma (ILC):</strong> Begins in the lobules (milk-producing glands) and can spread to nearby tissues.</li>
+        <li><strong>Triple-Negative Breast Cancer:</strong> A type of IDC that does not express estrogen, progesterone, or HER2 receptors. It is often more aggressive and harder to treat.</li>
+        <li><strong>HER2-Positive Breast Cancer:</strong> Characterized by overexpression of the HER2 protein, which promotes the growth of cancer cells. Treatments targeting HER2 are available.</li>
+        <li><strong>Inflammatory Breast Cancer:</strong> A rare and aggressive form that blocks lymph vessels in the skin, causing swelling and redness.</li>
+      </ul>
+  
+      <h2>Risk Factors</h2>
+      <ul>
+        <li><strong>Gender:</strong> Women are significantly more likely to develop breast cancer than men.</li>
+        <li><strong>Age:</strong> The risk increases with age, particularly after 55.</li>
+        <li><strong>Family History:</strong> Having a close relative with breast cancer can increase risk, particularly if they were diagnosed at a young age.</li>
+        <li><strong>Genetic Mutations:</strong> Inherited mutations in the BRCA1 and BRCA2 genes greatly increase breast and ovarian cancer risk.</li>
+        <li><strong>Hormonal Factors:</strong> Early menstruation, late menopause, and hormone replacement therapy can influence risk.</li>
+        <li><strong>Lifestyle Factors:</strong> Obesity, sedentary lifestyle, excessive alcohol consumption, and smoking can increase risk.</li>
+      </ul>
+  
+      <h2>Symptoms</h2>
+      <p>Breast cancer symptoms can vary, but common signs include:</p>
+      <ul>
+        <li>A lump or mass in the breast or underarm area that persists through the menstrual cycle.</li>
+        <li>Changes in the size, shape, or contour of the breast.</li>
+        <li>Skin changes, such as redness, dimpling, or peeling of the breast skin or nipple.</li>
+        <li>Nipple discharge, especially if it's bloody or occurs without squeezing.</li>
+        <li>Pain or tenderness in the breast or nipple area.</li>
+      </ul>
+  
+      <h2>Diagnosis</h2>
+      <p>Diagnosis typically involves several steps:</p>
+      <ul>
+        <li><strong>Clinical Breast Exam:</strong> A healthcare provider examines the breasts for lumps or other abnormalities.</li>
+        <li><strong>Imaging Tests:</strong>
+          <ul>
+            <li><strong>Mammogram:</strong> An X-ray of the breast that can detect tumors that are too small to be felt.</li>
+            <li><strong>Ultrasound:</strong> Uses sound waves to differentiate between solid masses and fluid-filled cysts.</li>
+            <li><strong>MRI:</strong> Provides detailed images of the breast and is sometimes used for screening high-risk women.</li>
+          </ul>
+        </li>
+        <li><strong>Biopsy:</strong> A sample of breast tissue is taken for laboratory analysis to confirm the presence of cancer cells. This can be done through fine-needle aspiration, core needle biopsy, or surgical biopsy.</li>
+      </ul>
+  
+      <h2>Treatment</h2>
+      <p>Breast cancer treatment depends on the type, stage, and characteristics of the cancer, as well as the patient's overall health. Common treatment options include:</p>
+      <ul>
+        <li><strong>Surgery:</strong> Options include lumpectomy (removal of the tumor and some surrounding tissue) and mastectomy (removal of one or both breasts).</li>
+        <li><strong>Radiation Therapy:</strong> Uses high-energy rays to kill cancer cells, often administered after surgery to reduce the risk of recurrence.</li>
+        <li><strong>Chemotherapy:</strong> Systemic treatment using drugs to kill or slow the growth of cancer cells. It may be used before surgery (neoadjuvant) or after (adjuvant).</li>
+        <li><strong>Hormonal Therapy:</strong> For cancers sensitive to hormones, medications that block estrogen (such as tamoxifen) can be effective.</li>
+        <li><strong>Targeted Therapy:</strong> Drugs that specifically target cancer cell characteristics, such as HER2, are used in certain cases.</li>
+      </ul>
+  
+      <h2>Prevention and Early Detection</h2>
+      <p>While there is no sure way to prevent breast cancer, several strategies can reduce risk:</p>
+      <ul>
+        <li><strong>Regular Screening:</strong> Mammograms can help detect breast cancer early when it is most treatable. Women should discuss screening schedules with their healthcare providers based on individual risk factors.</li>
+        <li><strong>Healthy Lifestyle:</strong> Maintaining a balanced diet, regular exercise, and a healthy weight can lower risk.</li>
+        <li><strong>Limit Alcohol:</strong> Reducing alcohol consumption can also decrease breast cancer risk.</li>
+        <li><strong>Genetic Testing:</strong> For those with a family history, genetic counseling and testing for BRCA mutations can inform risk-reduction strategies, including prophylactic surgeries.</li>
+      </ul>
+    </section>
+  
+  </body>
+  </html>
+  

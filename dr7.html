@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Doctors</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingToDoc7()">Dr. Jaideep Bansal</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <h1>Dr. Jaideep Bansal</h1>
+
+  <div class="doctor-info">
+    <h2>General Information</h2>
+    <p><strong>Experience:</strong> 30 Years</p>
+    <p><strong>Fee:</strong> ₹1500</p>
+    <p><strong>Hospital:</strong> Fortis Hospital</p>
+
+    <h2>Doctor Profile</h2>
+    <p>Dr. Jaideep Bansal is a highly esteemed neurologist with over three decades of experience in diagnosing and treating complex neurological disorders. He completed his MBBS and MD from S.M.S. Medical College in Jaipur, where he built a strong foundation in medicine. Dr. Bansal further specialized in neurology with a DM from G.B. Pant Hospital, University of Delhi, one of India's premier medical institutions. Throughout his career, he has held significant roles, including as a Senior Resident in Neurology at AIIMS, New Delhi, and now serves as the Director and Head of Neurology at Fortis Hospital, Shalimar Bagh, New Delhi.</p>
+    <p>Dr. Bansal’s dedication to neurology extends beyond clinical practice to academic contributions and public education. He has participated in over 70 national and international conferences and is a sought-after speaker and chairperson for numerous seminars, CMEs, and symposiums. He is actively involved in public health initiatives, regularly conducting awareness programs and public lectures on neurological health. His work has earned him multiple recognitions from various medical organizations.</p>
+
+    <h2>Specialty Interests</h2>
+    <p>Dr. Bansal has a wide range of specialty interests within neurology, focusing on:</p>
+    <ul>
+      <li><strong>Stroke:</strong> Expertise in the prevention, management, and rehabilitation of stroke patients, with a focus on minimizing long-term effects and improving quality of life.</li>
+      <li><strong>Epilepsy:</strong> Skilled in managing both common and complex cases of epilepsy, including medication management and advanced treatment approaches.</li>
+      <li><strong>Headache & Migraine:</strong> Specializes in diagnosing and treating various types of headaches, particularly chronic migraine, employing both conventional and novel treatment methods.</li>
+      <li><strong>Movement Disorders:</strong> Proficient in handling disorders like Parkinson’s disease and other movement abnormalities, utilizing personalized treatment strategies to improve mobility and daily functioning.</li>
+      <li><strong>Dementia and Alzheimer’s Disease:</strong> Focuses on early diagnosis and intervention for dementia and Alzheimer’s, providing support to patients and their families for managing these progressive conditions.</li>
+    </ul>
+    <p>His compassionate approach and dedication to each of his patients have made him a trusted name in neurology. Dr. Bansal is also actively involved in teaching programs, including DNB training, where he mentors the next generation of neurologists.</p>
+
+    <h2>Education</h2>
+    <p>Dr. Bansal's academic background is extensive, with qualifications from some of the most respected institutions in India:</p>
+    <ul>
+      <li><strong>MBBS:</strong> S.M.S. Medical College, Jaipur</li>
+      <li><strong>MD (Medicine):</strong> S.M.S. Medical College, Jaipur</li>
+      <li><strong>DM (Neurology):</strong> G.B. Pant Hospital, University of Delhi</li>
+    </ul>
+
+    <h2>Awards & Accolades</h2>
+    <p>Dr. Bansal has received numerous awards for his contributions to neurology and healthcare. He is regularly honored by medical organizations for his dedication to advancing neurological care in India and his commitment to patient education. His work as an educator and public health advocate is widely respected, and he continues to influence both clinical practice and public understanding of neurological health.</p>
+  </div>
+
+</body>
+
+</html>

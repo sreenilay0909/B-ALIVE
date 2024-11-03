@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Lung Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+    <h1>Lung Cancer Overview</h1>
+    <p>Lung cancer is a type of cancer that begins in the lungs and is one of the most common and serious types of cancer worldwide. It occurs when abnormal cells in the lung tissue grow uncontrollably, potentially forming tumors that can interfere with lung function.</p>
+
+    <h2>Types of Lung Cancer</h2>
+    <h3>Non-Small Cell Lung Cancer (NSCLC)</h3>
+    <p>This is the most common type, accounting for about 85% of lung cancer cases. It includes several subtypes:</p>
+    <ul>
+      <li><strong>Adenocarcinoma:</strong> Often found in outer lung areas, it is the most common type among non-smokers.</li>
+      <li><strong>Squamous Cell Carcinoma:</strong> Usually linked to smoking, it often arises in the central part of the lungs.</li>
+      <li><strong>Large Cell Carcinoma:</strong> A less common type that can occur in any part of the lung and tends to grow quickly.</li>
+    </ul>
+
+    <h3>Small Cell Lung Cancer (SCLC)</h3>
+    <p>This type accounts for about 15% of lung cancers and is more aggressive. It is strongly associated with smoking and often spreads quickly to other parts of the body.</p>
+
+    <h2>Risk Factors</h2>
+    <ul>
+      <li><strong>Smoking:</strong> The leading cause of lung cancer, responsible for about 85% of cases. Both active smoking and exposure to secondhand smoke increase risk.</li>
+      <li><strong>Radon Exposure:</strong> A naturally occurring radioactive gas that can accumulate in homes and is the second leading cause of lung cancer.</li>
+      <li><strong>Asbestos Exposure:</strong> Inhalation of asbestos fibers is linked to lung cancer, particularly among workers in industries where asbestos is used.</li>
+      <li><strong>Air Pollution:</strong> Long-term exposure to polluted air may contribute to the risk of lung cancer.</li>
+      <li><strong>Family History:</strong> A family history of lung cancer can increase an individual's risk.</li>
+    </ul>
+
+    <h2>Symptoms</h2>
+    <p>Early-stage lung cancer may not cause noticeable symptoms. As the disease progresses, common symptoms can include:</p>
+    <ul>
+      <li>Persistent cough that worsens over time</li>
+      <li>Coughing up blood or rust-colored sputum</li>
+      <li>Chest pain that worsens with deep breathing, coughing, or laughing</li>
+      <li>Shortness of breath</li>
+      <li>Wheezing</li>
+      <li>Fatigue</li>
+      <li>Unexplained weight loss</li>
+      <li>Recurrent respiratory infections</li>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <p>Diagnosing lung cancer typically involves several steps:</p>
+    <ul>
+      <li><strong>Medical History and Physical Exam:</strong> Assessment of symptoms and risk factors.</li>
+      <li><strong>Imaging Tests:</strong> Chest X-rays, CT scans, and PET scans help visualize lung abnormalities.</li>
+      <li><strong>Biopsy:</strong> A sample of lung tissue is examined for cancer cells. This can be done through bronchoscopy, needle aspiration, or surgery.</li>
+      <li><strong>Molecular Testing:</strong> Determines specific mutations in cancer cells, which can guide treatment options.</li>
+    </ul>
+
+    <h2>Treatment</h2>
+    <p>Treatment options depend on the type and stage of lung cancer, as well as the patient's overall health. Common treatments include:</p>
+    <ul>
+      <li><strong>Surgery:</strong> Removal of the tumor and surrounding tissue, potentially including a portion or the entire lung (lobectomy, pneumonectomy).</li>
+      <li><strong>Radiation Therapy:</strong> Uses high-energy rays to kill cancer cells or shrink tumors, often used when surgery isn't possible.</li>
+      <li><strong>Chemotherapy:</strong> Systemic treatment using drugs to kill cancer cells, typically used for advanced lung cancer or to shrink tumors before surgery.</li>
+      <li><strong>Targeted Therapy:</strong> Focuses on specific genetic mutations in cancer cells. Drugs are designed to target these abnormalities.</li>
+      <li><strong>Immunotherapy:</strong> Enhances the body's immune response against cancer cells. This approach is gaining traction in lung cancer treatment.</li>
+    </ul>
+
+    <h2>Prevention</h2>
+    <p>While not all lung cancer cases can be prevented, several measures can reduce the risk:</p>
+    <ul>
+      <li>Quit Smoking: The most significant way to lower the risk of lung cancer.</li>
+      <li>Avoid Secondhand Smoke: Stay away from environments where smoking is prevalent.</li>
+      <li>Radon Testing: Test homes for radon and take mitigation measures if levels are high.</li>
+      <li>Healthy Lifestyle: A balanced diet, regular exercise, and avoiding exposure to harmful substances can also help reduce risk.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

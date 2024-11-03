@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>muscle</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .muscle-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTomuscles()">muscle</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="muscle-info">
+    <h2>Muscle Health Overview</h2>
+    
+    <h3>1. Importance of Muscle Health</h3>
+    <p>Muscle health is vital for overall physical fitness, mobility, and strength. Well-functioning muscles support daily activities, improve posture, and enhance athletic performance.</p>
+
+    <h3>2. Types of Muscles</h3>
+    <p>The human body has three types of muscles:</p>
+    <ul>
+      <li><strong>Cardiac Muscle:</strong> Found in the heart, this involuntary muscle is responsible for pumping blood.</li>
+      <li><strong>Skeletal Muscle:</strong> Voluntary muscles attached to bones that facilitate movement and posture.</li>
+      <li><strong>Smooth Muscle:</strong> Involuntary muscles found in organs, helping to control functions like digestion and blood flow.</li>
+    </ul>
+
+    <h3>3. How Muscles Work</h3>
+    <p>Muscles work by contracting and relaxing. When a muscle contracts, it shortens and pulls on the bone, causing movement. The strength and endurance of muscles can be enhanced through resistance training.</p>
+
+    <h3>4. Benefits of Strong Muscles</h3>
+    <p>Maintaining strong muscles provides numerous benefits:</p>
+    <ul>
+      <li>Improved strength and endurance for daily activities.</li>
+      <li>Better posture and reduced risk of injury.</li>
+      <li>Enhanced metabolic rate, aiding in weight management.</li>
+      <li>Support for joint stability and overall mobility.</li>
+      <li>Improved athletic performance in sports and fitness activities.</li>
+    </ul>
+
+    <h3>5. Muscle Development</h3>
+    <p>To build and maintain muscle, consider the following:</p>
+    <ul>
+      <li><strong>Resistance Training:</strong> Engage in weight lifting, bodyweight exercises, or resistance band workouts to stimulate muscle growth.</li>
+      <li><strong>Progressive Overload:</strong> Gradually increase the weight or resistance to challenge your muscles and promote growth.</li>
+      <li><strong>Variety:</strong> Incorporate different exercises to target various muscle groups and prevent plateaus.</li>
+      <li><strong>Rest and Recovery:</strong> Allow muscles time to recover and repair between workouts to avoid overtraining.</li>
+    </ul>
+
+    <h3>6. Nutrition for Muscle Health</h3>
+    <p>Nutrition plays a critical role in muscle development:</p>
+    <ul>
+      <li><strong>Protein:</strong> Essential for muscle repair and growth. Include sources like lean meats, fish, eggs, dairy, legumes, and nuts.</li>
+      <li><strong>Carbohydrates:</strong> Provide energy for workouts and recovery. Focus on whole grains, fruits, and vegetables.</li>
+      <li><strong>Healthy Fats:</strong> Support overall health and hormone production. Incorporate avocados, nuts, seeds, and olive oil.</li>
+      <li><strong>Hydration:</strong> Stay well-hydrated to optimize performance and recovery.</li>
+    </ul>
+
+    <h3>7. Signs of Muscle Problems</h3>
+    <p>Be aware of signs indicating potential muscle issues:</p>
+    <ul>
+      <li>Pain or discomfort during movement.</li>
+      <li>Weakness or fatigue that does not improve with rest.</li>
+      <li>Swelling or inflammation in the muscle area.</li>
+      <li>Loss of muscle mass or strength.</li>
+    </ul>
+    <p>If you experience these symptoms, consult a healthcare professional for assessment and guidance.</p>
+
+    <h3>8. When to Seek Professional Advice</h3>
+    <p>If you're considering a new exercise program, have specific muscle concerns, or are recovering from an injury, it's wise to consult a healthcare provider or a certified fitness trainer for personalized advice.</p>
+  </div>
+
+</body>
+
+</html>

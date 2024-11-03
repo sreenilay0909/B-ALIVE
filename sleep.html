@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sleep</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .sleep-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTosleep()">Sleep</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="sleep-info">
+    <h2>Sleep Overview</h2>
+    
+    <h3>1. Importance of Sleep</h3>
+    <p>Sleep is vital for overall health and well-being. It plays a crucial role in physical health, mental health, and quality of life.</p>
+
+    <h3>2. Sleep Stages</h3>
+    <p>Sleep consists of several stages, including:</p>
+    <ul>
+      <li><strong>Non-REM Sleep:</strong>
+        <ul>
+          <li>Stage 1: Light sleep, where you drift in and out of sleep.</li>
+          <li>Stage 2: Slightly deeper sleep, where heart rate slows and body temperature drops.</li>
+          <li>Stage 3: Deep sleep, essential for physical recovery and growth.</li>
+        </ul>
+      </li>
+      <li><strong>REM Sleep:</strong>
+        <ul>
+          <li>Occurs about 90 minutes after falling asleep and is crucial for memory consolidation and emotional processing.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h3>3. Benefits of Good Sleep</h3>
+    <p>Getting enough quality sleep has numerous benefits, including:</p>
+    <ul>
+      <li>Improved cognitive function and memory</li>
+      <li>Better mood regulation</li>
+      <li>Enhanced immune function</li>
+      <li>Lower risk of chronic conditions</li>
+      <li>Increased energy levels and productivity</li>
+    </ul>
+
+    <h3>4. Recommended Sleep Duration</h3>
+    <p>Different age groups require varying amounts of sleep:</p>
+    <ul>
+      <li>Adults: 7-9 hours per night</li>
+      <li>Teenagers: 8-10 hours per night</li>
+      <li>Children: 9-12 hours per night</li>
+    </ul>
+
+    <h3>5. Tips for Better Sleep</h3>
+    <p>Improving your sleep hygiene can lead to better rest:</p>
+    <ul>
+      <li>Maintain a regular sleep schedule, going to bed and waking up at the same time each day.</li>
+      <li>Create a relaxing bedtime routine to signal your body it's time to wind down.</li>
+      <li>Limit screen time before bed to reduce blue light exposure.</li>
+      <li>Make your sleep environment comfortable: cool, dark, and quiet.</li>
+      <li>Avoid caffeine and heavy meals close to bedtime.</li>
+    </ul>
+
+    <h3>6. Recognizing Sleep Disorders</h3>
+    <p>Common sleep disorders include:</p>
+    <ul>
+      <li><strong>Insomnia:</strong> Difficulty falling or staying asleep.</li>
+      <li><strong>Sleep Apnea:</strong> Interrupted breathing during sleep, leading to poor quality sleep.</li>
+      <li><strong>Restless Legs Syndrome:</strong> An uncontrollable urge to move the legs, often disrupting sleep.</li>
+    </ul>
+    <p>If you suspect you have a sleep disorder, consult a healthcare professional for evaluation and treatment.</p>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Call Us</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+
+    <img src="Screenshot 2024-09-23 174415.png" alt="logaa" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingToCall()">Contact Us</button>
+
+
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo">
+        </feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+  <style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color:  #c6b7b7;
+        color: #333;
+        margin: 0;
+        padding: 0;
+    }
+
+    .contact-container {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+    }
+
+    .contact-header {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .contact-form label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 8px;
+        color: #333;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form input[type="tel"],
+    .contact-form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .contact-form textarea {
+        resize: vertical;
+        height: 100px;
+    }
+
+    .phone-number {
+        display: flex;
+        align-items: center;
+    }
+
+    .phone-number span {
+        background-color: #f4f4f4;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-right: none;
+        font-size: 16px;
+        color: #333;
+        border-radius: 4px 0 0 4px;
+    }
+
+    .contact-form input[type="tel"] {
+        border-radius: 0 4px 4px 0;
+        border-left: none;
+    }
+
+    .contact-form button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+        background-color: #0056b3;
+    }
+
+    @media (max-width: 600px) {
+        .contact-container {
+            padding: 15px;
+        }
+        .contact-header {
+            font-size: 20px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="contact-container">
+<h2 class="contact-header">Contact Us</h2>
+<form class="contact-form" onsubmit="return showPopup(event)">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" required>
+
+    <label for="phone">Phone Number</label>
+    <div class="phone-number">
+        <span>+91</span>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}" required>
+    </div>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write your message here" required></textarea>
+
+    <button type="submit">Send Message</button>
+</form>
+</div>
+
+<script>
+function showPopup(event) {
+    event.preventDefault(); 
+    alert("We will contact you soon.");
+    document.querySelector(".contact-form").reset(); 
+    return false; 
+}
+</script>
+
+
+
+</body>
+
+</html>

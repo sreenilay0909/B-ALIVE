@@ -1,0 +1,380 @@
+<!--
+  <!DOCTYPE html>
+  <html lang="en">
+    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+  
+  <div class="image">
+    
+    <img src="Screenshot 2024-09-23 174415.png" alt="logaa" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+  
+  <button class="d1" onclick="moveingToMed()">Medicine</button>
+  
+  
+  
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo">
+        </feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+  
+  
+  
+  
+  
+  <h1>
+    
+  </h1>
+  
+  
+  <div class="circle-link1">
+    <a href="keto-lifestyle-594px.png">
+      <img src="doctor1.jpeg" alt="log01" >
+      </a>
+    </div>
+    <button class="n1">Dr.Kapil Kumar</button>
+    
+    
+    
+    
+    
+    <div class="circle-link2">
+      <a href="fitnees_img.jpg">
+        <img src="doctor2.jpeg" alt="fitnees">
+      </a>
+    </div>
+    <button class="n2">Dr.Dinesh Kumar Mittal</button>
+    
+    
+    
+    <div class="circle-link3">
+      <a href="sleep.jpg">
+        <img src="doctor3.jpg" alt="slep">
+      </a>
+    </div>
+    <button class="n3">Dr.Deepak Kalra</button>
+    
+    
+    
+    <div class="circle-link4">
+      <a href="healthy-aging.webp">
+        <img src="doctor4.jpeg" alt="healthy-aging">
+    </a>
+  </div>
+  <button class="n4">Dr.Arvind Kumar</button>
+  
+  
+  
+  <div class="circle-link5">
+    <a href="mental_helth.jpg">
+      <img src="doctor5.jpeg" alt="mental_helth">
+    </a>
+  </div>
+  <button class="n5">Dr.Gagan Deep</button>
+  
+  
+  
+  
+  <div class="circle-link6">
+    <a href="diet.webp">
+      <img src="doctor6.jpeg" alt="diet">
+    </a>
+  </div>
+  <button class="n6"> Dr.Amite Pankaj</button>
+  
+  
+  
+  <div class="circle-link7">
+    <a href="Vitamin.jpg">
+      <img src="doctor7.jpeg" alt="diet">
+    </a>
+  </div>
+  <button class="n7">Dr.Jaideep Bansal</button>
+  
+  
+  
+  <div class="circle-link8">
+    <a href="skin_img.avif">
+      <img src="doctor8.jpeg" alt="diet">
+    </a>
+  </div>
+  <button class="n8">Dr.Pradeep Jain</button>
+  
+  
+  
+  <div class="circle-link9">
+    <a href="muscles.jpg">
+      <img src="doctor9.jpeg" alt="diet">
+    </a>
+  </div>
+  <button class="n9">Dr.Naresh Trehan</button>
+  
+  
+  
+  
+  
+</body>
+
+</html>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medicine</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #c6b7b7;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color:  #c6b7b7;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .header .image img {
+      height: 90px;
+      cursor: pointer;
+    }
+
+    .header .emergency-button {
+      background-color: #ff4d4d; /* Change color as needed */
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .header .emergency-button:hover {
+      background-color: #ff1a1a; /* Darker shade for hover effect */
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .box {
+      background-color: #66d345; ;
+     
+      border: 1px solid #000000;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .image-container {
+      width: 100%;
+      height: 0;
+      padding-top: 100%; /* 1:1 Aspect Ratio */
+      position: relative;
+    }
+
+    .image-container img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .info {
+      padding: 10px;
+      text-align: center;
+      background-color: #66d345;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="image">
+      <img src="Screenshot 2024-09-23 174415.png" alt="logo" onclick="moveingToHome()">
+    </div>
+    <button class="emergency-button" onclick="moveingToEme()">Emergency</button>
+  </div>
+
+  <div class="grid">
+    <div class="box">
+      <div class="image-container">
+        <img src="Acetaminophen.jpg" alt="Acetaminophen">
+      </div>
+      <div class="info">
+        <h3>Acetaminophen</h3>
+        <p>Pain relief and fever reduction</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Ibuprofen.jpg" alt="Ibuprofen">
+      </div>
+      <div class="info">
+        <h3>Ibuprofen</h3>
+        <p>Pain relief, anti-inflammatory, and fever reduction</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Aspirin.jpg" alt="Aspirin">
+      </div>
+      <div class="info">
+        <h3>Aspirin</h3>
+        <p>Pain relief, anti-inflammatory, and blood  <br>thinner for cardiovascular health</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Lisinopril.jpg" alt="Lisinopril">
+      </div>
+      <div class="info">
+        <h3>Lisinopril</h3>
+        <p>Treat high blood pressure and heart failure.</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Metformin.jpg" alt="Metformin">
+      </div>
+      <div class="info">
+        <h3>Metformin</h3>
+        <p>Manage type 2 diabetes</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Levothyroxine.jpg" alt="Levothyroxine">
+      </div>
+      <div class="info">
+        <h3>Levothyroxine</h3>
+        <p>Treat hypothyroidism</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Statins.jpg" alt="Statins">
+      </div>
+      <div class="info">
+        <h3>Statins</h3>
+        <p>Lower cholesterol levels and reduce the risk of heart disease</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Omeprazole.jpg" alt="Omeprazole">
+      </div>
+      <div class="info">
+        <h3>Omeprazole</h3>
+        <p>Treat gastroesophageal reflux disease (GERD) and stomach ulcers</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Diphenhydramine.jpg" alt="Diphenhydramine">
+      </div>
+      <div class="info">
+        <h3>Diphenhydramine</h3>
+        <p>Allergy relief and as a sleep aid</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Hydrochlorothiazide.jpg" alt="Hydrochlorothiazide">
+      </div>
+      <div class="info">
+        <h3>Hydrochlorothiazide</h3>
+        <p>Treat high blood pressure and fluid retention</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Albuterol.jpg" alt="Albuterol">
+      </div>
+      <div class="info">
+        <h3>Albuterol</h3>
+        <p>Relieve bronchospasm in asthma and chronic obstructive pulmonary disease</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Sertraline.jpg" alt="Sertraline">
+      </div>
+      <div class="info">
+        <h3>Sertraline</h3>
+        <p>Treat depression, anxiety disorders, and PTSD</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Fluticasone.jpg" alt="Fluticasone">
+      </div>
+      <div class="info">
+        <h3>Fluticasone</h3>
+        <p>Treat allergic rhinitis (nasal allergies)</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Gabapentin.jpg" alt="Gabapentin">
+      </div>
+      <div class="info">
+        <h3>Gabapentin</h3>
+        <p>Manage nerve pain and prevent seizures</p>
+      </div>
+    </div>
+    <div class="box">
+      <div class="image-container">
+        <img src="Furosemide.jpg" alt="Furosemide">
+      </div>
+      <div class="info">
+        <h3>Furosemide</h3>
+        <p>Treat fluid retention (edema) and high blood pressure by promoting urine production.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Liver Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+      <h1>Liver Cancer Overview</h1>
+      <p>Liver cancer, also known as hepatocellular carcinoma (HCC), is a type of cancer that originates in the liver. It is one of the most common cancers worldwide and is often associated with chronic liver diseases, such as hepatitis and cirrhosis.</p>
+  
+      <h2>Types of Liver Cancer</h2>
+      <ul>
+        <li><strong>Hepatocellular Carcinoma (HCC):</strong> The most prevalent form, accounting for about 75-85% of liver cancer cases. It usually arises from liver cells (hepatocytes).</li>
+        <li><strong>Cholangiocarcinoma:</strong> Also known as bile duct cancer, this type originates in the bile ducts and can occur within the liver or outside it.</li>
+        <li><strong>Hepatoblastoma:</strong> A rare type of liver cancer that primarily affects children, typically under the age of three.</li>
+        <li><strong>Angiosarcoma:</strong> A rare cancer that originates in the blood vessels of the liver.</li>
+      </ul>
+  
+      <h2>Risk Factors</h2>
+      <ul>
+        <li><strong>Chronic Viral Hepatitis:</strong> Infection with hepatitis B (HBV) or hepatitis C (HCV) viruses significantly increases risk.</li>
+        <li><strong>Cirrhosis:</strong> Scarring of the liver from chronic liver disease, which can result from alcohol abuse, hepatitis, fatty liver disease, or other causes.</li>
+        <li><strong>Alcohol Consumption:</strong> Chronic heavy drinking can lead to liver damage and increase cancer risk.</li>
+        <li><strong>Obesity and Diabetes:</strong> These conditions are linked to fatty liver disease, which can progress to cirrhosis and increase cancer risk.</li>
+        <li><strong>Aflatoxin Exposure:</strong> Contamination of food products (especially grains and nuts) with aflatoxin, a carcinogenic substance produced by certain molds, is a risk factor in some regions.</li>
+        <li><strong>Family History:</strong> A family history of liver disease or liver cancer can increase risk.</li>
+      </ul>
+  
+      <h2>Symptoms</h2>
+      <p>Early-stage liver cancer often does not cause symptoms. As the disease progresses, symptoms may include:</p>
+      <ul>
+        <li>Unexplained weight loss.</li>
+        <li>Loss of appetite.</li>
+        <li>Upper abdominal pain or discomfort.</li>
+        <li>Nausea and vomiting.</li>
+        <li>Fatigue and weakness.</li>
+        <li>Jaundice (yellowing of the skin and eyes).</li>
+        <li>Swelling in the abdomen (ascites).</li>
+      </ul>
+  
+      <h2>Diagnosis</h2>
+      <p>Diagnosis typically involves several steps:</p>
+      <ul>
+        <li><strong>Medical History and Physical Examination:</strong> A healthcare provider will assess symptoms and may check for liver enlargement or tenderness.</li>
+        <li><strong>Imaging Tests:</strong> Techniques such as ultrasound, CT scans, or MRIs can help visualize the liver and detect tumors.</li>
+        <li><strong>Blood Tests:</strong> Tests for liver function and tumor markers, such as alpha-fetoprotein (AFP), which can be elevated in liver cancer.</li>
+        <li><strong>Biopsy:</strong> A tissue sample may be taken from the liver for examination to confirm cancer diagnosis.</li>
+      </ul>
+  
+      <h2>Treatment</h2>
+      <p>Treatment for liver cancer depends on various factors, including the size and number of tumors, liver function, and the overall health of the patient. Common treatment options include:</p>
+      <ul>
+        <li><strong>Surgery:</strong> If the cancer is confined to a portion of the liver, surgical options may include partial hepatectomy (removal of part of the liver) or liver transplantation.</li>
+        <li><strong>Ablation:</strong> Techniques such as radiofrequency ablation (RFA) or microwave ablation destroy tumors using heat.</li>
+        <li><strong>Transarterial Chemoembolization (TACE):</strong> A procedure that delivers chemotherapy directly to the tumor while blocking its blood supply.</li>
+        <li><strong>Radiation Therapy:</strong> May be used to shrink tumors or relieve symptoms, though it’s less common for liver cancer.</li>
+        <li><strong>Targeted Therapy:</strong> Drugs that target specific molecules involved in cancer growth, such as sorafenib or lenvatinib, may be used for advanced cases.</li>
+        <li><strong>Immunotherapy:</strong> This approach helps the body’s immune system recognize and attack cancer cells and may be effective for certain patients.</li>
+      </ul>
+  
+      <h2>Prevention</h2>
+      <p>Preventive measures can help reduce the risk of liver cancer:</p>
+      <ul>
+        <li><strong>Vaccination:</strong> Hepatitis B vaccination can significantly lower the risk of HBV-related liver cancer.</li>
+        <li><strong>Regular Screening:</strong> Individuals at high risk (e.g., those with chronic hepatitis or cirrhosis) should undergo regular screenings for liver cancer.</li>
+        <li><strong>Limit Alcohol Consumption:</strong> Reducing alcohol intake can help protect liver health.</li>
+        <li><strong>Maintain a Healthy Weight:</strong> Managing weight through diet and exercise can reduce the risk of fatty liver disease and associated complications.</li>
+        <li><strong>Avoid Aflatoxin:</strong> Ensuring food safety and proper storage can minimize exposure to aflatoxin.</li>
+      </ul>
+    </section>
+  
+  </body>
+  </html>
+  

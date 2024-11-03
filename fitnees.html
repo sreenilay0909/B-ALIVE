@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitnees</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .fitness-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTofitnees()">Fitnees</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="fitness-info">
+    <h2>Fitness Overview</h2>
+    
+    <h3>1. Importance of Fitness</h3>
+    <p>Regular physical activity is essential for overall health. It helps improve physical fitness, mental health, and quality of life.</p>
+
+    <h3>2. Types of Fitness</h3>
+    <p>Fitness can be categorized into several types:</p>
+    <ul>
+      <li><strong>Aerobic Fitness:</strong> Involves sustained activities that increase heart rate, such as running, cycling, and swimming.</li>
+      <li><strong>Muscular Strength:</strong> The ability of muscles to exert force, important for daily activities and overall health.</li>
+      <li><strong>Muscular Endurance:</strong> The ability to perform repetitive movements over time, crucial for activities like lifting and carrying.</li>
+      <li><strong>Flexibility:</strong> The range of motion in joints, which helps prevent injuries and improve performance.</li>
+      <li><strong>Body Composition:</strong> Refers to the ratio of fat to lean mass in the body, important for overall health.</li>
+    </ul>
+
+    <h3>3. Benefits of Regular Exercise</h3>
+    <p>Engaging in regular exercise has numerous benefits, including:</p>
+    <ul>
+      <li>Improved cardiovascular health</li>
+      <li>Enhanced mood and mental health</li>
+      <li>Better weight management</li>
+      <li>Increased strength and endurance</li>
+      <li>Reduced risk of chronic diseases</li>
+    </ul>
+
+    <h3>4. Creating a Fitness Routine</h3>
+    <p>A balanced fitness routine should include:</p>
+    <ul>
+      <li><strong>Aerobic Activity:</strong> Aim for at least 150 minutes of moderate-intensity or 75 minutes of high-intensity aerobic exercise weekly.</li>
+      <li><strong>Strength Training:</strong> Include exercises for all major muscle groups at least two days a week.</li>
+      <li><strong>Flexibility Exercises:</strong> Incorporate stretching or yoga to improve flexibility and reduce the risk of injury.</li>
+    </ul>
+
+    <h3>5. Staying Motivated</h3>
+    <p>Maintaining motivation is key to sticking with a fitness program:</p>
+    <ul>
+      <li>Set realistic goals and track your progress.</li>
+      <li>Find activities you enjoy to make exercise fun.</li>
+      <li>Join a class or workout group for social support.</li>
+      <li>Mix up your routine to prevent boredom.</li>
+    </ul>
+
+    <h3>6. Safety Considerations</h3>
+    <p>Always prioritize safety during exercise:</p>
+    <ul>
+      <li>Warm up before and cool down after workouts.</li>
+      <li>Stay hydrated and listen to your body.</li>
+      <li>Consult a healthcare professional before starting a new exercise program, especially if you have pre-existing health conditions.</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

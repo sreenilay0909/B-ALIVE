@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .skin-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingToskin()">Skin</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="skin-info">
+    <h2>Skin Health Overview</h2>
+    
+    <h3>1. Importance of Skin Health</h3>
+    <p>The skin is the largest organ of the body and serves as a protective barrier against environmental factors. Healthy skin is crucial for overall well-being, aiding in temperature regulation, sensation, and hydration.</p>
+
+    <h3>2. Layers of the Skin</h3>
+    <p>The skin consists of three main layers:</p>
+    <ul>
+      <li><strong>Epidermis:</strong> The outermost layer that provides a waterproof barrier and skin tone.</li>
+      <li><strong>Dermis:</strong> The middle layer containing connective tissue, hair follicles, and sweat glands.</li>
+      <li><strong>Subcutaneous Tissue:</strong> The innermost layer made of fat and connective tissue that insulates the body.</li>
+    </ul>
+
+    <h3>3. Common Skin Conditions</h3>
+    <p>Several conditions can affect skin health, including:</p>
+    <ul>
+      <li><strong>Acne:</strong> A common condition that occurs when hair follicles become clogged with oil and dead skin cells.</li>
+      <li><strong> eczema:</strong> A condition that causes inflamed, itchy, and red skin.</li>
+      <li><strong>Psoriasis:</strong> An autoimmune disease that leads to rapid skin cell production, resulting in scaly patches.</li>
+      <li><strong>Skin Cancer:</strong> Abnormal growth of skin cells, often linked to UV exposure.</li>
+    </ul>
+
+    <h3>4. Benefits of Healthy Skin</h3>
+    <p>Maintaining healthy skin offers various benefits:</p>
+    <ul>
+      <li>Improved appearance and self-esteem.</li>
+      <li>Better barrier function to protect against pathogens.</li>
+      <li>Enhanced regulation of body temperature and fluid balance.</li>
+      <li>Increased sensation and perception of the environment.</li>
+    </ul>
+
+    <h3>5. Tips for Maintaining Healthy Skin</h3>
+    <p>To promote skin health, consider these practices:</p>
+    <ul>
+      <li><strong>Hydration:</strong> Drink plenty of water to keep skin hydrated from within.</li>
+      <li><strong>Sun Protection:</strong> Use sunscreen with at least SPF 30 to protect against UV damage.</li>
+      <li><strong>Gentle Cleansing:</strong> Cleanse the skin daily with a mild cleanser to remove dirt and impurities.</li>
+      <li><strong>Moisturizing:</strong> Apply moisturizer regularly to maintain skin hydration and barrier function.</li>
+      <li><strong>Healthy Diet:</strong> Include antioxidants, vitamins, and healthy fats in your diet for better skin health.</li>
+    </ul>
+
+    <h3>6. Nutrition for Skin Health</h3>
+    <p>Key nutrients that support skin health include:</p>
+    <ul>
+      <li><strong>Vitamin C:</strong> Important for collagen production and skin repair.</li>
+      <li><strong>Vitamin E:</strong> Acts as an antioxidant, protecting skin cells from damage.</li>
+      <li><strong>Omega-3 Fatty Acids:</strong> Help maintain skin barrier function and reduce inflammation.</li>
+      <li><strong>Zinc:</strong> Supports skin healing and helps with acne management.</li>
+    </ul>
+
+    <h3>7. Signs of Skin Problems</h3>
+    <p>Be alert for signs that may indicate skin issues:</p>
+    <ul>
+      <li>Persistent dryness or flakiness.</li>
+      <li>Unexplained rashes or lesions.</li>
+      <li>Changes in skin color or texture.</li>
+      <li>Itching or burning sensations.</li>
+    </ul>
+    <p>If you notice any concerning changes, consult a healthcare professional or dermatologist for evaluation.</p>
+
+    <h3>8. When to Seek Professional Advice</h3>
+    <p>If you experience persistent skin issues, have concerns about your skin's appearance, or suspect a skin condition, it's advisable to seek advice from a dermatologist for diagnosis and treatment options.</p>
+  </div>
+
+</body>
+
+</html>

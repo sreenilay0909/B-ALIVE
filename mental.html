@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mental health </title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .mental-health-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTomental()">mental health </button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="mental-health-info">
+    <h2>Mental Health Overview</h2>
+    
+    <h3>1. Importance of Mental Health</h3>
+    <p>Mental health is essential for overall well-being and quality of life. It affects how we think, feel, and act in daily life.</p>
+
+    <h3>2. Key Components of Mental Health</h3>
+    <p>Mental health encompasses several key areas:</p>
+    <ul>
+      <li><strong>Emotional Well-being:</strong> The ability to manage emotions and cope with stress.</li>
+      <li><strong>Cognitive Function:</strong> How well we think, learn, and remember.</li>
+      <li><strong>Social Connections:</strong> The quality of our relationships and support systems.</li>
+      <li><strong>Self-esteem:</strong> How we view ourselves and our worth.</li>
+    </ul>
+
+    <h3>3. Common Mental Health Issues</h3>
+    <p>Several mental health conditions can affect individuals:</p>
+    <ul>
+      <li><strong>Anxiety Disorders:</strong> Characterized by excessive worry, fear, and avoidance behaviors.</li>
+      <li><strong>Depressive Disorders:</strong> Involves persistent sadness, loss of interest, and decreased energy.</li>
+      <li><strong>Obsessive-Compulsive Disorder (OCD):</strong> Involves unwanted repetitive thoughts (obsessions) and behaviors (compulsions).</li>
+      <li><strong>Bipolar Disorder:</strong> Causes extreme mood swings, including emotional highs and lows.</li>
+      <li><strong>Post-Traumatic Stress Disorder (PTSD):</strong> Develops after experiencing or witnessing a traumatic event.</li>
+    </ul>
+
+    <h3>4. Signs and Symptoms</h3>
+    <p>Recognizing signs of mental health issues is crucial:</p>
+    <ul>
+      <li>Changes in mood, behavior, or personality.</li>
+      <li>Withdrawal from social interactions and activities.</li>
+      <li>Changes in sleep or appetite.</li>
+      <li>Difficulty concentrating or making decisions.</li>
+      <li>Substance abuse as a coping mechanism.</li>
+    </ul>
+
+    <h3>5. Strategies for Improving Mental Health</h3>
+    <p>There are several ways to enhance mental well-being:</p>
+    <ul>
+      <li><strong>Practice Self-Care:</strong> Engage in activities that promote relaxation and joy.</li>
+      <li><strong>Stay Physically Active:</strong> Regular exercise can boost mood and reduce stress.</li>
+      <li><strong>Maintain a Balanced Diet:</strong> Nutrition impacts brain health and emotional well-being.</li>
+      <li><strong>Connect with Others:</strong> Build and maintain supportive relationships.</li>
+      <li><strong>Seek Professional Help:</strong> Therapy or counseling can provide valuable support and strategies.</li>
+    </ul>
+
+    <h3>6. The Role of Therapy</h3>
+    <p>Therapy can be an effective treatment for mental health issues:</p>
+    <ul>
+      <li><strong>Cognitive Behavioral Therapy (CBT):</strong> Focuses on changing negative thought patterns and behaviors.</li>
+      <li><strong>Talk Therapy:</strong> Provides a safe space to discuss feelings and experiences.</li>
+      <li><strong>Group Therapy:</strong> Involves sharing experiences with others facing similar challenges.</li>
+    </ul>
+
+    <h3>7. When to Seek Help</h3>
+    <p>It’s important to seek help if you or someone you know experiences:</p>
+    <ul>
+      <li>Persistent sadness or hopelessness.</li>
+      <li>Suicidal thoughts or actions.</li>
+      <li>Inability to cope with daily life.</li>
+      <li>Severe anxiety or panic attacks.</li>
+    </ul>
+    <p>Contact a mental health professional or a helpline for support and guidance.</p>
+  </div>
+
+</body>
+
+</html>

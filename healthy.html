@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health aging</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .health-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTohealthy()">Health aging</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="health-info">
+    <h2>Health Overview</h2>
+    
+    <h3>1. Importance of Health</h3>
+    <p>Good health is essential for living a fulfilling life. It impacts physical, mental, and emotional well-being.</p>
+
+    <h3>2. Components of Health</h3>
+    <p>Health encompasses several key components:</p>
+    <ul>
+      <li><strong>Physical Health:</strong> Involves regular exercise, balanced nutrition, and sufficient sleep.</li>
+      <li><strong>Mental Health:</strong> Includes emotional well-being, stress management, and cognitive function.</li>
+      <li><strong>Social Health:</strong> Refers to the quality of relationships and social interactions.</li>
+      <li><strong>Spiritual Health:</strong> Involves a sense of purpose and connection to something greater than oneself.</li>
+    </ul>
+
+    <h3>3. Maintaining Good Health</h3>
+    <p>To maintain good health, consider the following:</p>
+    <ul>
+      <li><strong>Balanced Diet:</strong> Consume a variety of foods rich in essential nutrients.</li>
+      <li><strong>Regular Exercise:</strong> Aim for at least 150 minutes of moderate-intensity aerobic activity each week.</li>
+      <li><strong>Adequate Sleep:</strong> Ensure 7-9 hours of quality sleep per night.</li>
+      <li><strong>Regular Health Checkups:</strong> Schedule routine checkups and screenings as recommended.</li>
+    </ul>
+
+    <h3>4. Mental Health Awareness</h3>
+    <p>Mental health is just as important as physical health. Here are some key points:</p>
+    <ul>
+      <li>Recognize signs of mental health issues, such as persistent sadness, anxiety, or changes in mood.</li>
+      <li>Practice self-care and stress management techniques, like mindfulness and relaxation exercises.</li>
+      <li>Seek professional help when needed; therapy and counseling can provide valuable support.</li>
+    </ul>
+
+    <h3>5. Preventive Health Measures</h3>
+    <p>Preventive care can help avoid diseases and maintain health:</p>
+    <ul>
+      <li>Stay up to date with vaccinations.</li>
+      <li>Engage in screenings for early detection of diseases (e.g., cancer screenings, blood pressure checks).</li>
+      <li>Practice good hygiene and sanitation.</li>
+    </ul>
+
+    <h3>6. Lifestyle Choices</h3>
+    <p>Making healthy lifestyle choices can greatly impact overall health:</p>
+    <ul>
+      <li>Avoid smoking and limit alcohol consumption.</li>
+      <li>Stay hydrated and limit sugary drinks.</li>
+      <li>Manage stress through activities you enjoy and by spending time with loved ones.</li>
+    </ul>
+
+    <h3>7. The Role of Healthcare Providers</h3>
+    <p>Healthcare providers play a crucial role in maintaining health:</p>
+    <ul>
+      <li>Consult with healthcare professionals for personalized health advice.</li>
+      <li>Follow treatment plans and medication regimens as prescribed.</li>
+      <li>Communicate openly with your provider about any health concerns.</li>
+    </ul>
+  </div>
+
+</body>
+
+</html>

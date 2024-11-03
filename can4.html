@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Cervical Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+
+
+    <h1>Cervical Cancer Overview</h1>
+    <p>Cervical cancer is a type of cancer that occurs in the cervix, the lower part of the uterus that connects to the vagina. It is primarily caused by persistent infection with certain types of human papillomavirus (HPV), a common sexually transmitted infection. Cervical cancer is a significant global health issue, particularly affecting women in developing countries.</p>
+
+    <h2>Types of Cervical Cancer</h2>
+    <ul>
+      <li><strong>Squamous Cell Carcinoma:</strong> The most common type, accounting for about 70-90% of cases. It arises from the squamous cells that line the cervix.</li>
+      <li><strong>Adenocarcinoma:</strong> This type originates from the glandular cells of the cervix and is less common than squamous cell carcinoma.</li>
+      <li><strong>Other Rare Types:</strong> These may include neuroendocrine tumors, small cell carcinoma, and other less common variants.</li>
+    </ul>
+
+    <h2>Risk Factors</h2>
+    <ul>
+      <li><strong>HPV Infection:</strong> The most significant risk factor. Persistent infection with high-risk HPV types (especially HPV-16 and HPV-18) is the primary cause of cervical cancer.</li>
+      <li><strong>Sexual Behavior:</strong> Having multiple sexual partners or becoming sexually active at a young age increases the risk.</li>
+      <li><strong>Smoking:</strong> Tobacco use is linked to an increased risk of cervical cancer.</li>
+      <li><strong>Immunosuppression:</strong> Conditions that weaken the immune system, such as HIV/AIDS, can increase risk.</li>
+      <li><strong>Long-term Use of Oral Contraceptives:</strong> Some studies suggest that using birth control pills for five years or more may slightly increase the risk.</li>
+      <li><strong>Lack of Screening:</strong> Women who do not undergo regular Pap smears or HPV testing are at higher risk.</li>
+    </ul>
+
+    <h2>Symptoms</h2>
+    <p>In the early stages, cervical cancer may not present any noticeable symptoms. As the disease progresses, symptoms may include:</p>
+    <ul>
+      <li>Abnormal vaginal bleeding (between periods, after intercourse, or post-menopause).</li>
+      <li>Unusual vaginal discharge (which may be watery, bloody, or foul-smelling).</li>
+      <li>Pain during intercourse.</li>
+      <li>Pelvic pain that may occur at any time, not just during intercourse.</li>
+      <li>Swollen legs or back pain (in advanced stages).</li>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <p>Diagnosis typically involves:</p>
+    <ul>
+      <li><strong>Pelvic Exam:</strong> A healthcare provider examines the cervix for any abnormalities.</li>
+      <li><strong>Pap Smear (Pap Test):</strong> A sample of cells is taken from the cervix and examined for precancerous changes or cancer.</li>
+      <li><strong>HPV Testing:</strong> Testing for the presence of high-risk HPV types can be done alongside a Pap smear.</li>
+      <li><strong>Colposcopy:</strong> If abnormalities are detected, a colposcopy may be performed, which involves using a magnifying instrument to examine the cervix and potentially take a biopsy.</li>
+      <li><strong>Biopsy:</strong> A sample of cervical tissue is examined for cancer cells.</li>
+    </ul>
+
+    <h2>Treatment</h2>
+    <p>Treatment for cervical cancer depends on the stage of the disease, the type of cancer, and the patient’s overall health. Common treatment options include:</p>
+    <ul>
+      <li><strong>Surgery:</strong> For early-stage cervical cancer, surgery may involve removing the cervix (trachelectomy), the uterus (hysterectomy), or the surrounding tissue (radical hysterectomy).</li>
+      <li><strong>Radiation Therapy:</strong> This may be used alone or in combination with surgery, especially for locally advanced cervical cancer.</li>
+      <li><strong>Chemotherapy:</strong> Often used in conjunction with radiation for advanced cases or when cancer has spread beyond the cervix.</li>
+      <li><strong>Targeted Therapy:</strong> Drugs that specifically target cancer cell characteristics may be considered in certain cases.</li>
+    </ul>
+
+    <h2>Prevention</h2>
+    <p>Preventive measures can significantly reduce the risk of cervical cancer:</p>
+    <ul>
+      <li><strong>HPV Vaccination:</strong> Vaccines are available to protect against the most common high-risk HPV types that cause cervical cancer. Vaccination is most effective when given before the onset of sexual activity.</li>
+      <li><strong>Regular Screening:</strong> Routine Pap smears and HPV testing can detect precancerous changes early, allowing for timely intervention.</li>
+      <li><strong>Safe Sexual Practices:</strong> Using condoms and limiting the number of sexual partners can reduce the risk of HPV infection.</li>
+      <li><strong>Quit Smoking:</strong> Avoiding tobacco can also lower the risk of developing cervical cancer.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

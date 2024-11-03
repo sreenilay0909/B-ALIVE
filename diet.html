@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>health diet</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f4f4f4;
+    }
+    .diet-info {
+      margin-top: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #333;
+    }
+    h3 {
+      color: #555;
+    }
+  </style>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="Logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTodiet()">health diet</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+  <div class="diet-info">
+    <h2>Healthy Diet Overview</h2>
+    
+    <h3>1. Importance of a Healthy Diet</h3>
+    <p>A healthy diet is essential for maintaining overall health, preventing chronic diseases, and supporting physical and mental well-being.</p>
+
+    <h3>2. Key Components of a Healthy Diet</h3>
+    <p>A balanced diet includes a variety of food groups:</p>
+    <ul>
+      <li><strong>Fruits and Vegetables:</strong> Provide essential vitamins, minerals, and fiber. Aim for at least five servings per day.</li>
+      <li><strong>Whole Grains:</strong> Include whole grains like brown rice, quinoa, and whole wheat bread for fiber and nutrients.</li>
+      <li><strong>Lean Proteins:</strong> Sources include poultry, fish, beans, nuts, and legumes, which support muscle health.</li>
+      <li><strong>Dairy or Dairy Alternatives:</strong> Provide calcium and vitamin D; choose low-fat options when possible.</li>
+      <li><strong>Healthy Fats:</strong> Incorporate sources like avocados, olive oil, and nuts while limiting saturated and trans fats.</li>
+    </ul>
+
+    <h3>3. Benefits of a Healthy Diet</h3>
+    <p>Eating a balanced diet has numerous benefits, including:</p>
+    <ul>
+      <li>Improved heart health and reduced risk of heart disease.</li>
+      <li>Better weight management and lower risk of obesity.</li>
+      <li>Enhanced mood and cognitive function.</li>
+      <li>Stronger immune system and reduced inflammation.</li>
+      <li>Lower risk of chronic diseases such as diabetes and certain cancers.</li>
+    </ul>
+
+    <h3>4. Dietary Guidelines</h3>
+    <p>Follow these general dietary guidelines for optimal health:</p>
+    <ul>
+      <li>Limit added sugars and salt intake.</li>
+      <li>Choose whole, minimally processed foods over highly processed options.</li>
+      <li>Stay hydrated by drinking plenty of water throughout the day.</li>
+      <li>Practice portion control to avoid overeating.</li>
+      <li>Plan meals and snacks to include a variety of nutrients.</li>
+    </ul>
+
+    <h3>5. Special Dietary Considerations</h3>
+    <p>Certain individuals may have specific dietary needs:</p>
+    <ul>
+      <li><strong>Vegetarians and Vegans:</strong> Ensure adequate intake of protein, iron, vitamin B12, and omega-3 fatty acids.</li>
+      <li><strong>Individuals with Food Allergies:</strong> Identify and avoid allergens, and consider alternative food sources.</li>
+      <li><strong>People with Chronic Conditions:</strong> Consult with a healthcare provider or dietitian for tailored dietary advice.</li>
+    </ul>
+
+    <h3>6. Tips for Maintaining a Healthy Diet</h3>
+    <p>Here are practical tips to support healthy eating habits:</p>
+    <ul>
+      <li>Prepare meals at home to control ingredients and portion sizes.</li>
+      <li>Incorporate a variety of colors on your plate to ensure diverse nutrient intake.</li>
+      <li>Practice mindful eating by paying attention to hunger and fullness cues.</li>
+      <li>Keep healthy snacks available to avoid unhealthy choices when hungry.</li>
+      <li>Set realistic goals and gradually make changes to your diet.</li>
+    </ul>
+
+    <h3>7. When to Seek Professional Advice</h3>
+    <p>If you have specific dietary concerns or health conditions, consider consulting a registered dietitian or nutritionist for personalized guidance and meal planning.</p>
+  </div>
+
+</body>
+
+</html>

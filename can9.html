@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cansar</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTocan1()">Prostate Cancer</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+
+
+    <h1>Prostate Cancer Overview</h1>
+    <p>Prostate cancer is a type of cancer that occurs in the prostate, a small gland that produces seminal fluid and is located below the bladder and in front of the rectum in men. It is one of the most common types of cancer among men, especially those over the age of 50.</p>
+
+    <h2>Types of Prostate Cancer</h2>
+    <ul>
+      <li><strong>Adenocarcinoma:</strong> This is the most common type of prostate cancer, accounting for about 95% of cases. It develops from the glandular cells of the prostate.</li>
+      <li><strong>Other Types:</strong> Less common types include small cell carcinoma, neuroendocrine tumors, and transitional cell carcinoma. These types may have different characteristics and treatment approaches.</li>
+    </ul>
+
+    <h2>Risk Factors</h2>
+    <ul>
+      <li><strong>Age:</strong> Risk increases significantly with age, particularly after age 50.</li>
+      <li><strong>Family History:</strong> Having a family history of prostate cancer can elevate risk, especially if close relatives are affected.</li>
+      <li><strong>Race:</strong> African American men are at higher risk compared to men of other races, and they are also more likely to have aggressive forms of the disease.</li>
+      <li><strong>Diet:</strong> Diets high in red meat and dairy products may be linked to increased risk, while a diet rich in fruits and vegetables may lower risk.</li>
+      <li><strong>Obesity:</strong> Being overweight or obese is associated with a higher risk of aggressive prostate cancer.</li>
+    </ul>
+
+    <h2>Symptoms</h2>
+    <p>In the early stages, prostate cancer may not cause noticeable symptoms. As the disease progresses, symptoms can include:</p>
+    <ul>
+      <li>Difficulty urinating or interrupted urine flow.</li>
+      <li>Frequent urination, especially at night (nocturia).</li>
+      <li>Painful urination (dysuria) or ejaculation.</li>
+      <li>Blood in urine or semen.</li>
+      <li>Persistent pain in the back, hips, or pelvis.</li>
+      <li>Unexplained weight loss or fatigue.</li>
+    </ul>
+
+    <h2>Diagnosis</h2>
+    <p>Diagnosis of prostate cancer involves several steps:</p>
+    <ul>
+      <li><strong>Medical History and Physical Examination:</strong> A healthcare provider will assess symptoms and may perform a digital rectal exam (DRE) to feel for abnormalities.</li>
+      <li><strong>Prostate-Specific Antigen (PSA) Test:</strong> A blood test measuring the level of PSA, a substance produced by the prostate. Elevated levels may indicate prostate cancer, but can also be due to other conditions.</li>
+      <li><strong>Biopsy:</strong> If abnormalities are detected, a biopsy is performed to take tissue samples from the prostate for laboratory analysis.</li>
+      <li><strong>Imaging Tests:</strong> MRI, CT scans, or bone scans may be used to determine if cancer has spread.</li>
+    </ul>
+
+    <h2>Treatment</h2>
+    <p>Treatment options for prostate cancer depend on the stage of the disease, the patient's overall health, and preferences. Common treatments include:</p>
+    <ul>
+      <li><strong>Active Surveillance:</strong> Monitoring the cancer closely without immediate treatment, often recommended for low-risk, slow-growing tumors.</li>
+      <li><strong>Surgery:</strong> Radical prostatectomy involves the removal of the prostate and some surrounding tissue. It may be performed using traditional or robotic-assisted techniques.</li>
+      <li><strong>Radiation Therapy:</strong> This can be external beam radiation or brachytherapy (internal radiation). It is often used for localized cancer or as palliative care for advanced cases.</li>
+      <li><strong>Hormone Therapy:</strong> Also known as androgen deprivation therapy (ADT), this treatment reduces levels of male hormones that fuel cancer growth.</li>
+      <li><strong>Chemotherapy:</strong> Used primarily for advanced prostate cancer that has spread outside the prostate.</li>
+      <li><strong>Immunotherapy:</strong> This approach helps the immune system recognize and attack cancer cells and may be an option for advanced cases.</li>
+    </ul>
+
+    <h2>Prevention</h2>
+    <p>While there’s no guaranteed way to prevent prostate cancer, certain lifestyle changes can help reduce risk:</p>
+    <ul>
+      <li><strong>Regular Screening:</strong> Discussing the risks and benefits of PSA testing and DRE with a healthcare provider can help with early detection.</li>
+      <li><strong>Healthy Diet:</strong> Eating a balanced diet rich in fruits, vegetables, whole grains, and healthy fats while limiting red meat and high-fat dairy products may lower risk.</li>
+      <li><strong>Physical Activity:</strong> Regular exercise can help maintain a healthy weight and reduce the risk of several types of cancer.</li>
+      <li><strong>Avoiding Smoking:</strong> Quitting smoking and reducing alcohol consumption can contribute to overall health and potentially lower cancer risk.</li>
+    </ul>
+  </section>
+
+</body>
+</html>
+

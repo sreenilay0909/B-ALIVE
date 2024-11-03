@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hospital</title>
+  <link rel="stylesheet" href="doctors.css">
+  <link rel="stylesheet" href="button.css">
+  <script src="script.js"></script>
+</head>
+
+<body class="main">
+
+  <div class="image">
+    <img src="Screenshot 2024-09-23 174415.png" alt="logo" height="90px" class="img" onclick="moveingToHome()">
+  </div>
+
+  <button class="d1" onclick="moveingTohosp3()">Artemis Hospital</button>
+
+  <button class="d-button d-button--gooey" onclick="moveingToEme()">Emergency
+    <div class="d-button__blobs">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </button>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display: block; height: 0; width: 0;">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo"></feColorMatrix>
+        <feBlend in="SourceGraphic" in2="goo"></feBlend>
+      </filter>
+    </defs>
+  </svg>
+
+
+
+
+
+  <h1>Artemis Hospital, Gurgaon</h1>
+
+  <div class="hospital-info">
+    <h2>About Artemis Hospital</h2>
+    <p>Established in 2007, Artemis Hospital in Gurgaon stands as a beacon of advanced healthcare delivery in India. With a mission to provide world-class medical services, the hospital spans over 9 acres and boasts more than 400 beds, making it a premier multi-specialty institution dedicated to patient care. Located in the rapidly developing area of Gurgaon, Artemis Hospital has become a key player in the healthcare landscape of the region.</p>
+
+    <h2>Commitment to Excellence</h2>
+    <p>Artemis Hospital is distinguished as the first hospital in Gurgaon to achieve both Joint Commission International (JCI) and National Accreditation Board for Hospitals & Healthcare Providers (NABH) accreditations. These accolades reflect the hospital's commitment to maintaining international standards in healthcare quality, safety, and patient satisfaction. The institution is not only focused on medical excellence but also actively engages in local community initiatives, positioning itself as a proactive partner in the health and wellness of the community it serves.</p>
+
+    <h2>Part of Artemis Health Sciences</h2>
+    <p>The hospital is an integral part of Artemis Health Sciences (AHS), a healthcare venture initiated by the Apollo Tyres Group. This affiliation allows Artemis Hospital to leverage extensive resources, advanced technologies, and a network of healthcare professionals to deliver comprehensive medical care. The hospital's foundation is built on the principles of innovation, integrity, and compassion, driving it to continually enhance its offerings and reach.</p>
+
+    <h2>Comprehensive Medical Services</h2>
+    <p>Artemis Hospital specializes in a broad spectrum of advanced medical and surgical interventions, ensuring that patients receive comprehensive care across various specialties. Key services offered include:</p>
+    <ul>
+      <li><strong>Urology:</strong> Providing advanced diagnostic and therapeutic options for urinary tract disorders and male reproductive health issues.</li>
+      <li><strong>Nephrology:</strong> Specializing in the diagnosis and management of kidney diseases, including dialysis and transplantation services.</li>
+      <li><strong>Neurosurgery:</strong> Offering cutting-edge surgical interventions for neurological disorders, including brain and spinal surgeries.</li>
+      <li><strong>Cardiac & Vascular Surgery:</strong> Delivering advanced surgical techniques for heart and vascular conditions, supported by a dedicated cardiovascular team.</li>
+      <li><strong>ENT (Ear, Nose, and Throat):</strong> Addressing a wide range of ENT conditions with both medical and surgical treatments.</li>
+      <li><strong>Medical Oncology:</strong> Providing comprehensive cancer care, including chemotherapy, immunotherapy, and palliative care.</li>
+      <li><strong>General Surgery:</strong> Covering a variety of surgical procedures for both emergency and elective cases.</li>
+      <li><strong>Obstetrics & Gynecology:</strong> Offering specialized care for women's health, including prenatal care and high-risk obstetrics.</li>
+      <li><strong>Gastroenterology:</strong> Providing diagnostic and therapeutic interventions for digestive disorders.</li>
+      <li><strong>Cardiology:</strong> Offering a full spectrum of cardiac care, from preventive measures to advanced interventional procedures.</li>
+      <li><strong>Neurology:</strong> Focusing on the diagnosis and treatment of neurological disorders, including stroke management.</li>
+      <li><strong>Pulmonology:</strong> Specializing in respiratory conditions, including chronic obstructive pulmonary disease (COPD) and asthma management.</li>
+      <li><strong>Orthopedics:</strong> Providing advanced treatment options for musculoskeletal conditions, including joint replacement surgeries.</li>
+    </ul>
+
+    <h2>Advanced Technology and Facilities</h2>
+    <p>Artemis Hospital is equipped with the latest technologies in diagnostic, predictive, and therapeutic imaging, ensuring precise and effective patient care. Some of the state-of-the-art equipment available at the hospital includes:</p>
+    <ul>
+      <li><strong>16-Slice PET CT Scanner:</strong> This advanced imaging tool allows for highly detailed imaging, crucial for accurate cancer diagnosis and treatment planning.</li>
+      <li><strong>3 Tesla MRI:</strong> Providing exceptional imaging quality for a wide range of medical conditions, enhancing diagnostic accuracy.</li>
+      <li><strong>64-Slice Cardiac CT Scanner:</strong> This equipment allows for detailed imaging of cardiac structures, aiding in the diagnosis and management of heart conditions.</li>
+      <li><strong>HDR Brachytherapy:</strong> A cutting-edge cancer treatment option that delivers targeted radiation directly to tumors, minimizing damage to surrounding healthy tissue.</li>
+      <li><strong>Image-Guided Radiation Therapy (IGRT):</strong> This technology improves the precision of radiation therapy, ensuring that the radiation is accurately delivered to the tumor site.</li>
+      <li><strong>Flat Panel Cath Labs:</strong> The hospital features innovative flat panel catheterization laboratories that facilitate advanced cardiovascular procedures.</li>
+      <li><strong>Endovascular Hybrid Operating Suite:</strong> This specialized suite combines surgical and endovascular capabilities, enabling complex procedures in a single setting.</li>
+    </ul>
+
+    <h2>Centers of Excellence and Specialties</h2>
+    <p>Artemis Hospital prides itself on having 11 Centers of Excellence across 40 specialties, underscoring its commitment to specialized care. With a team of over 300 full-time doctors, the hospital is staffed with highly qualified professionals who are leaders in their fields. Each center is designed to provide focused and comprehensive care, utilizing the latest technologies and treatment protocols.</p>
+    <p>The hospital’s cardiovascular department is particularly noteworthy, employing the most innovative technologies available, which include the aforementioned Flat Panel Cath Labs and advanced surgical suites. These resources enable the hospital to offer some of the most sophisticated cardiovascular interventions, ensuring optimal patient outcomes.</p>
+
+    <h2>Community Engagement and Education</h2>
+    <p>In addition to its clinical services, Artemis Hospital is deeply committed to community engagement and education. The hospital actively participates in health awareness programs, free medical camps, and public health initiatives aimed at promoting preventive healthcare and improving the overall health of the community. By providing educational resources and outreach programs, Artemis Hospital fosters a healthier community and empowers individuals to take charge of their health.</p>
+
+    <h2>Conclusion</h2>
+    <p>Overall, Artemis Hospital in Gurgaon stands as a premier institution in the Indian healthcare landscape, known for its commitment to excellence, innovative medical practices, and compassionate patient care. With its advanced technology, diverse medical services, and dedicated healthcare professionals, Artemis Hospital is well-equipped to meet the healthcare needs of its patients while continuing to set benchmarks in the industry. The hospital remains a popular choice for individuals seeking high-quality medical care in a patient-centered environment, making significant strides in improving health outcomes in the region and beyond.</p>
+  </div>
+
+</body>
+
+</html>
